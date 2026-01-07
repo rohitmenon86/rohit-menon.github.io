@@ -387,7 +387,7 @@ p {
 
   /* Top Navigation */
   .top-nav {
-    position: relative;
+    position: sticky;
     height: auto;
     width: 100%;
     left: 0;
