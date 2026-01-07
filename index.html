@@ -4,8 +4,33 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Rohit Menon | Robotics Research</title>
-  <meta name="description" content="Academic homepage of Rohit Menon. Researcher in active perception, semantic mapping, and uncertainty-aware AI for robotics.">
+  <meta name="description" content="Academic homepage of Rohit Menon, PhD Candidate at the University of Bonn. Researcher in active perception, semantic mapping, and uncertainty-aware AI for robotics.">
+  
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Lora:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
+
   <style>
+    :root {
+      --bg-color: #ffffff;
+      --text-color: #1a1a1a;
+      --text-muted: #4b5563;
+      --accent-color: #2563eb;
+      --border-color: #e5e7eb;
+      --section-spacing: 48px;
+    }
+
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg-color: #0f172a;
+        --text-color: #f1f5f9;
+        --text-muted: #94a3b8;
+        --accent-color: #60a5fa;
+        --border-color: #334155;
+      }
+    }
+
     * {
       margin: 0;
       padding: 0;
@@ -13,116 +38,227 @@
     }
 
     body {
-      font-family: Georgia, "Times New Roman", serif;
+      font-family: 'Inter', system-ui, -apple-system, sans-serif;
       line-height: 1.6;
-      color: #333;
-      max-width: 800px;
+      color: var(--text-color);
+      background-color: var(--bg-color);
+      max-width: 850px;
       margin: 0 auto;
-      padding: 40px 20px;
-      background-color: #fff;
+      padding: 60px 24px;
+      transition: background-color 0.3s, color 0.3s;
     }
 
     header {
-      margin-bottom: 28px;
-      border-bottom: 1px solid #ddd;
-      padding-bottom: 18px;
+      margin-bottom: 40px;
+      border-bottom: 1px solid var(--border-color);
+      padding-bottom: 30px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 40px;
+    }
+
+    .header-content {
+      flex: 1;
+    }
+
+    .profile-img-container {
+      flex-shrink: 0;
+    }
+
+    .profile-img {
+      width: 180px;
+      height: 180px;
+      border-radius: 12px;
+      object-fit: cover;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+      border: 1px solid var(--border-color);
     }
 
     h1 {
-      font-size: 2.4em;
-      font-weight: normal;
-      margin-bottom: 6px;
-      color: #222;
+      font-family: 'Lora', serif;
+      font-size: 3rem;
+      font-weight: 500;
+      margin-bottom: 12px;
+      letter-spacing: -0.02em;
     }
 
     .subtitle {
-      color: #555;
-      font-size: 1.05em;
-    }
-
-    h2 {
-      font-size: 1.45em;
-      font-weight: normal;
-      margin-top: 34px;
-      margin-bottom: 18px;
-      color: #444;
-      border-bottom: 1px solid #eee;
-      padding-bottom: 10px;
-    }
-
-    .research-summary {
-      margin-top: 18px;
-      margin-bottom: 22px;
-    }
-
-    .links {
-      margin: 22px 0 8px 0;
-    }
-
-    .links a {
-      display: inline-block;
-      margin-right: 18px;
-      margin-bottom: 10px;
-      color: #2563eb;
-      text-decoration: none;
-      border-bottom: 1px solid transparent;
-      transition: border-bottom 0.2s;
-    }
-
-    .links a:hover {
-      border-bottom: 1px solid #2563eb;
+      font-size: 1.125rem;
+      color: var(--text-muted);
+      margin-bottom: 8px;
     }
 
     .meta {
-      color: #555;
-      margin-top: 6px;
-      font-size: 0.98em;
+      font-size: 1rem;
+      color: var(--accent-color);
+      font-weight: 500;
     }
 
+    main {
+      margin-top: 40px;
+    }
+
+    section {
+      margin-bottom: var(--section-spacing);
+    }
+
+    h2 {
+      font-family: 'Lora', serif;
+      font-size: 1.75rem;
+      font-weight: 600;
+      margin-bottom: 24px;
+      border-bottom: 1px solid var(--border-color);
+      padding-bottom: 8px;
+    }
+
+    p {
+      margin-bottom: 16px;
+      font-size: 1.05rem;
+    }
+
+    /* Links */
+    .links-nav {
+      margin: 24px 0;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 16px;
+    }
+
+    .links-nav a {
+      color: var(--accent-color);
+      text-decoration: none;
+      font-weight: 500;
+      padding: 6px 12px;
+      background: rgba(37, 99, 235, 0.05);
+      border-radius: 6px;
+      transition: all 0.2s ease;
+    }
+
+    .links-nav a:hover {
+      background: rgba(37, 99, 235, 0.1);
+      transform: translateY(-1px);
+    }
+
+    /* Experience & Education */
+    .entry {
+      margin-bottom: 24px;
+    }
+
+    .entry-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      margin-bottom: 4px;
+    }
+
+    .entry-title {
+      font-weight: 600;
+      font-size: 1.1rem;
+    }
+
+    .entry-org {
+      color: var(--text-muted);
+      font-style: italic;
+    }
+
+    .entry-time {
+      color: var(--text-muted);
+      font-variant-numeric: tabular-nums;
+      font-size: 0.95rem;
+    }
+
+    /* Publications */
     .publication {
-      margin-bottom: 18px;
+      margin-bottom: 28px;
     }
 
     .publication-title {
-      font-weight: bold;
-      color: #222;
+      font-weight: 600;
+      font-size: 1.1rem;
+      color: var(--text-color);
+      margin-bottom: 4px;
     }
 
     .publication-authors {
-      color: #555;
-      font-style: italic;
-      margin-top: 4px;
+      font-size: 0.95rem;
+      color: var(--text-muted);
+      margin-bottom: 4px;
     }
 
     .publication-venue {
-      color: #666;
-      margin-top: 3px;
+      font-size: 0.95rem;
+      color: var(--accent-color);
+      font-weight: 500;
+    }
+
+    .publication-links {
+      margin-top: 8px;
+      font-size: 0.875rem;
+    }
+
+    .pub-link {
+      display: inline-block;
+      margin-right: 12px;
+      color: var(--text-muted);
+      text-decoration: none;
+      border: 1px solid var(--border-color);
+      padding: 2px 8px;
+      border-radius: 4px;
+    }
+
+    .pub-link:hover {
+      color: var(--accent-color);
+      border-color: var(--accent-color);
+    }
+
+    /* News */
+    .news-list {
+      list-style: none;
+    }
+
+    .news-item {
+      margin-bottom: 12px;
+      padding-left: 12px;
+      border-left: 3px solid var(--accent-color);
+    }
+
+    .news-date {
+      font-weight: 600;
+      margin-right: 8px;
+      color: var(--text-muted);
     }
 
     footer {
-      margin-top: 34px;
-      padding-top: 14px;
-      border-top: 1px solid #eee;
-      color: #666;
-      font-size: 0.95em;
+      margin-top: 60px;
+      padding-top: 24px;
+      border-top: 1px solid var(--border-color);
+      color: var(--text-muted);
+      font-size: 0.9rem;
+      text-align: center;
     }
 
-    @media (max-width: 600px) {
+    @media (max-width: 640px) {
       body {
-        padding: 20px 15px;
+        padding: 40px 20px;
       }
-
+      header {
+        flex-direction: column-reverse;
+        text-align: center;
+        gap: 24px;
+      }
+      .profile-img {
+        width: 150px;
+        height: 150px;
+      }
       h1 {
-        font-size: 2em;
+        font-size: 2.25rem;
       }
-
-      h2 {
-        font-size: 1.28em;
+      .entry-header {
+        flex-direction: column;
       }
-
-      .links a {
-        display: block;
-        margin-bottom: 12px;
+      .entry-time {
+        margin-top: 2px;
       }
     }
   </style>
@@ -130,63 +266,177 @@
 
 <body>
   <header>
-    <h1>Rohit Menon</h1>
-    <div class="subtitle">PhD Candidate & Research Associate, Humanoid Robots Lab, University of Bonn</div>
-    <div class="meta">Active Perception · Semantic Mapping · Uncertainty-Aware AI · Robotic Manipulation</div>
+    <div class="header-content">
+      <h1>Rohit Menon</h1>
+      <div class="subtitle">PhD Candidate & Research Associate</div>
+      <div class="subtitle">Humanoid Robots Lab, University of Bonn</div>
+      <div class="meta">Active Perception · Semantic Mapping · Uncertainty-Aware AI · Robotic Manipulation</div>
+    </div>
+    <div class="profile-img-container">
+      <img src="assets/profile_pic.png" alt="Rohit Menon" class="profile-img">
+    </div>
   </header>
 
   <main>
-    <section class="research-summary">
+    <section id="about">
       <p>
-        I am a PhD candidate at the Humanoid Robots Lab (University of Bonn) working on active perception,
-        semantic mapping, and uncertainty-aware AI for robotics, with a focus on agricultural manipulation and
-        scene understanding under perceptual uncertainty.
+        I am a PhD candidate at the <strong>Humanoid Robots Lab</strong> (University of Bonn) and a member of the <strong>PhenoRob Cluster of Excellence</strong>. My research focuses on active perception, semantic mapping, and uncertainty-aware AI for robotics, with a emphasis on agricultural manipulation and scene understanding under perceptual uncertainty.
       </p>
+      
+      <div class="links-nav">
+        <a href="cv.pdf">📄 CV (PDF)</a>
+        <a href="https://scholar.google.de/citations?user=l0PmEYEAAAAJ&hl=en" target="_blank" rel="noopener">🎓 Google Scholar</a>
+        <a href="https://github.com/rohitmenon86" target="_blank" rel="noopener">💻 GitHub</a>
+        <a href="mailto:rohit.menon@uni-bonn.de">✉️ Email</a>
+      </div>
     </section>
 
-    <section class="links" aria-label="Links">
-      <a href="cv.pdf">CV (PDF)</a>
-      <a href="https://scholar.google.de/citations?user=l0PmEYEAAAAJ&hl=en" target="_blank" rel="noopener">Google Scholar</a>
-      <a href="https://github.com/rohitmenon86" target="_blank" rel="noopener">GitHub</a>
-      <a href="mailto:rohit.menon@uni-bonn.de">Email</a>
+    <section id="news">
+      <h2>Recent News</h2>
+      <ul class="news-list">
+        <li class="news-item">
+          <span class="news-date">Mar 2025</span> 🏆 Won the <strong>Best Poster Award</strong> at the IROS 2025 Workshop on "Perception and Planning for Mobile Manipulation in Changing Environments" for our work on open-vocabulary reasoning.
+        </li>
+        <li class="news-item">
+          <span class="news-date">Mar 2025</span> Two papers (<em>EvidMTL</em> and <em>GO-VMP</em>) accepted to the main track of <strong>IROS 2025</strong> in Seoul.
+        </li>
+        <li class="news-item">
+          <span class="news-date">Oct 2024</span> Presented <em>HortiBot</em> at <strong>IROS 2024</strong> in Abu Dhabi.
+        </li>
+      </ul>
     </section>
 
-    <h2>Selected Publications</h2>
+    <section id="education">
+      <h2>Education</h2>
+      <div class="entry">
+        <div class="entry-header">
+          <div class="entry-title">Ph.D. in Computer Science (ongoing)</div>
+          <div class="entry-time">2022 — Present</div>
+        </div>
+        <div class="entry-org">University of Bonn, Germany</div>
+      </div>
+      <div class="entry">
+        <div class="entry-header">
+          <div class="entry-title">M.Sc. in Automation and Robotics</div>
+          <div class="entry-time">2012 — 2015</div>
+        </div>
+        <div class="entry-org">TU Dortmund University, Germany</div>
+      </div>
+      <div class="entry">
+        <div class="entry-header">
+          <div class="entry-title">B.E. in Electrical Engineering</div>
+          <div class="entry-time">2008 — 2012</div>
+        </div>
+        <div class="entry-org">University of Mumbai (SPCE), India</div>
+      </div>
+    </section>
 
-    <section class="publications" aria-label="Selected publications">
+    <section id="experience">
+      <h2>Experience</h2>
+      <div class="entry">
+        <div class="entry-header">
+          <div class="entry-title">Research Associate</div>
+          <div class="entry-time">Feb 2022 — Present</div>
+        </div>
+        <div class="entry-org">Humanoid Robots Lab, University of Bonn</div>
+      </div>
+      <div class="entry">
+        <div class="entry-header">
+          <div class="entry-title">Founding Engineer & Group Lead (AI in Manipulation)</div>
+          <div class="entry-time">Nov 2019 — Jan 2022</div>
+        </div>
+        <div class="entry-org">NEURA Robotics, Germany</div>
+      </div>
+      <div class="entry">
+        <div class="entry-header">
+          <div class="entry-title">Researcher</div>
+          <div class="entry-time">Jul 2015 — Oct 2019</div>
+        </div>
+        <div class="entry-org">DFKI (Robotics Innovation Centre), Germany</div>
+      </div>
+      <div class="entry">
+        <div class="entry-header">
+          <div class="entry-title">Master Thesis Student</div>
+          <div class="entry-time">Jun 2014 — Feb 2015</div>
+        </div>
+        <div class="entry-org">DLR - German Aerospace Center, Germany</div>
+      </div>
+    </section>
+
+    <section id="publications">
+      <h2>Selected Publications</h2>
+
+      <article class="publication">
+        <div class="publication-title">Open-Vocabulary and Semantic-Aware Reasoning for Search and Retrieval of Objects in Dynamic and Concealed Spaces</div>
+        <div class="publication-authors">Rohit Menon, et al.</div>
+        <div class="publication-venue">IROS Workshop on Perception and Planning for Mobile Manipulation in Changing Environments, 2025 (Best Poster Award)</div>
+      </article>
+
       <article class="publication">
         <div class="publication-title">EvidMTL: Evidential Multi-Task Learning for Uncertainty-Aware Semantic Surface Mapping from Monocular RGB Images</div>
         <div class="publication-authors">Rohit Menon, Nils Dengler, Sicong Pan, Gokul Krishna Chenchani, Maren Bennewitz</div>
-        <div class="publication-venue">IROS 2025 (accepted); arXiv:2503.04441 (2025)</div>
+        <div class="publication-venue">IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), 2025</div>
+        <div class="publication-links">
+          <a href="https://arxiv.org/abs/2503.04441" class="pub-link">arXiv</a>
+        </div>
+      </article>
+
+      <article class="publication">
+        <div class="publication-title">GO-VMP: Global Optimization for View Motion Planning in Fruit Mapping</div>
+        <div class="publication-authors">Rohit Menon, Nils Dengler, Maren Bennewitz</div>
+        <div class="publication-venue">IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), 2025</div>
+        <div class="publication-links">
+          <a href="https://arxiv.org/abs/2503.03912" class="pub-link">arXiv</a>
+          <a href="https://www.youtube.com/watch?v=vnlRTkjPD2U" class="pub-link">Video</a>
+        </div>
       </article>
 
       <article class="publication">
         <div class="publication-title">Hortibot: An Adaptive Multi-Arm System for Robotic Horticulture of Sweet Peppers</div>
-        <div class="publication-authors">Christian Lenz*, Rohit Menon*, Michael Schreiber, Melvin Paul Jacob, Sven Behnke, Maren Bennewitz (*equal)</div>
-        <div class="publication-venue">IROS 2024</div>
+        <div class="publication-authors">Christian Lenz*, Rohit Menon*, Michael Schreiber, Melvin Paul Jacob, Sven Behnke, Maren Bennewitz</div>
+        <div class="publication-venue">IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), 2024</div>
+        <div class="publication-links">
+          <a href="https://arxiv.org/abs/2403.15306" class="pub-link">arXiv</a>
+          <a href="https://ieeexplore.ieee.org/document/10802283" class="pub-link">DOI</a>
+          <a href="https://www.youtube.com/watch?v=qI2K1cS58KE" class="pub-link">Video</a>
+        </div>
       </article>
 
       <article class="publication">
         <div class="publication-title">DawnIK: Decentralized Collision-Aware Inverse Kinematics Solver for Heterogeneous Multi-Arm Systems</div>
-        <div class="publication-authors">Salih marangiz*, Rohit Menon*, Nils Dengler, Maren Bennewitz (*equal)</div>
-        <div class="publication-venue">Humanoids 2023</div>
+        <div class="publication-authors">Salih Marangoz*, Rohit Menon*, Nils Dengler, Maren Bennewitz</div>
+        <div class="publication-venue">IEEE-RAS International Conference on Humanoid Robots (Humanoids), 2023</div>
+        <div class="publication-links">
+          <a href="https://arxiv.org/abs/2307.12750" class="pub-link">arXiv</a>
+          <a href="https://ieeexplore.ieee.org/document/10375253" class="pub-link">DOI</a>
+          <a href="https://www.youtube.com/watch?v=0idb9Ls2iAM" class="pub-link">Video</a>
+        </div>
       </article>
 
       <article class="publication">
         <div class="publication-title">NBV-SC: Next Best View Planning Based on Shape Completion for Fruit Mapping and Reconstruction</div>
         <div class="publication-authors">Rohit Menon, Tobias Zaenker, Nils Dengler, Maren Bennewitz</div>
-        <div class="publication-venue">IROS 2023</div>
+        <div class="publication-venue">IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), 2023</div>
+        <div class="publication-links">
+          <a href="https://arxiv.org/abs/2209.15376" class="pub-link">arXiv</a>
+          <a href="https://ieeexplore.ieee.org/document/10342371" class="pub-link">DOI</a>
+          <a href="https://www.youtube.com/watch?v=Grp5V93oIzg" class="pub-link">Video</a>
+        </div>
       </article>
 
       <article class="publication">
         <div class="publication-title">Fruit Mapping with Shape Completion for Autonomous Crop Monitoring</div>
         <div class="publication-authors">Salih Marangoz, Tobias Zaenker, Rohit Menon, Maren Bennewitz</div>
-        <div class="publication-venue">CASE 2022</div>
+        <div class="publication-venue">IEEE International Conference on Automation Science and Engineering (CASE), 2022</div>
+        <div class="publication-links">
+          <a href="https://arxiv.org/abs/2203.15489" class="pub-link">arXiv</a>
+          <a href="https://ieeexplore.ieee.org/document/9920150" class="pub-link">DOI</a>
+        </div>
       </article>
     </section>
 
     <footer>
-      <div>Based in Bonn, Germany.</div>
+      <p>&copy; 2025 Rohit Menon. Based in Bonn, Germany.</p>
     </footer>
   </main>
 </body>
