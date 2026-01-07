@@ -94,7 +94,11 @@ a:hover {
   font-family: 'Lora', serif;
   font-size: 1.25rem;
   font-weight: 600;
+}
+
+.nav-brand a {
   color: var(--text-color);
+  text-decoration: none;
 }
 
 .nav-menu {
@@ -154,6 +158,11 @@ a:hover {
   font-size: 1.5rem;
   font-weight: 600;
   margin-bottom: 4px;
+}
+
+.sidebar-name a {
+  color: var(--text-color);
+  text-decoration: none;
 }
 
 .sidebar-tagline {
