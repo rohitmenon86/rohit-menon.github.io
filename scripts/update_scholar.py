@@ -34,13 +34,13 @@ def update_file(filepath, metrics):
         content = f.read()
 
     # Update Citations
-    content = re.sub(r'(<strong>)\d+\+?(</strong>\s*Citations)', r'\g<1>' + metrics["citations"] + r'\g<2>', content)
+    content = re.sub(r'(Citations:\s*<strong>)\d+(</strong>)', r'\g<1>' + metrics["citations"] + r'\g<2>', content)
     
     # Update h-index
-    content = re.sub(r'(<strong>)\d+(</strong>\s*h-index)', r'\g<1>' + metrics["h_index"] + r'\g<2>', content)
+    content = re.sub(r'(h-index:\s*<strong>)\d+(</strong>)', r'\g<1>' + metrics["h_index"] + r'\g<2>', content)
     
     # Update i10-index
-    content = re.sub(r'(<strong>)\d+(</strong>\s*i10-index)', r'\g<1>' + metrics["i10_index"] + r'\g<2>', content)
+    content = re.sub(r'(i10-index:\s*<strong>)\d+(</strong>)', r'\g<1>' + metrics["i10_index"] + r'\g<2>', content)
 
     with open(filepath, 'w', encoding='utf-8') as f:
         f.write(content)
