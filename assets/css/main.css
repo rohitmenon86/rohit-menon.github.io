@@ -240,8 +240,6 @@ h1 {
   color: var(--text-color);
   margin-top: 0;
   margin-bottom: 2rem;
-  padding-bottom: 1rem;
-  border-bottom: 2px solid var(--accent-color);
 }
 
 h2 {
@@ -251,7 +249,7 @@ h2 {
   margin-top: 3.5rem;
   margin-bottom: 1.5rem;
   padding-bottom: 0.5rem;
-  border-bottom: 1px solid var(--border-color);
+  border-bottom: 2px solid var(--border-color);
 }
 
 h3 {
@@ -285,41 +283,34 @@ footer a:hover {
 
 .page-header {
   margin-bottom: 2.5rem;
+  border-bottom: 1px solid var(--border-color);
+  padding-bottom: 2rem;
 }
 
 .page-header h1 { 
   margin: 0; 
   display: flex;
   justify-content: space-between;
-  align-items: baseline;
+  align-items: center;
 }
-
-.page-header h1 { margin: 0; }
 
 .research-impact-tags {
   display: flex;
-  gap: 15px;
+  gap: 12px;
 }
 
 .metric-tag {
-  background: var(--bg-hover);
-  padding: 4px 12px;
+  background: var(--sidebar-bg);
+  padding: 6px 14px;
   border-radius: 20px;
   font-size: 0.9rem;
   color: var(--text-muted);
   border: 1px solid var(--border-color);
+  white-space: nowrap;
 }
 
 .metric-tag strong {
   color: var(--accent-color);
-}
-
-h1 { font-size: 2.5rem; }
-h2 {
-  font-size: 1.75rem;
-  border-bottom: 1px solid var(--border-color);
-  padding-bottom: 10px;
-  margin-top: 3rem;
 }
 
 p {
@@ -459,7 +450,7 @@ p {
   padding-bottom: 2rem;
 }
 
-.entry:not(:last-child) {
+.entry:not(:last-of-type) {
   border-bottom: 1px dashed var(--border-color);
 }
 
@@ -473,7 +464,7 @@ p {
   padding-bottom: 2rem;
 }
 
-.publication:not(:last-child) {
+.publication:not(:last-of-type) {
   border-bottom: 1px dashed var(--border-color);
 }
 .publication-title { font-weight: 600; margin-bottom: 4px; display: block; }
