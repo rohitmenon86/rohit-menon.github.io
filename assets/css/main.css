@@ -5,7 +5,8 @@
   --text-muted: #4b5563;
   --accent-color: #2563eb;
   --border-color: #e5e7eb;
-  --sidebar-width: 280px;
+  --sidebar-width: 120px;
+  --nav-height: 70px;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -55,17 +56,64 @@ a:hover {
   }
 }
 
-/* Sidebar Styling */
+/* Top Navigation */
+.top-nav {
+  height: var(--nav-height);
+  width: calc(100% - var(--sidebar-width));
+  position: fixed;
+  top: 0;
+  left: var(--sidebar-width);
+  background-color: var(--bg-color);
+  border-bottom: 1px solid var(--border-color);
+  z-index: 100;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 40px;
+}
+
+.nav-brand {
+  font-family: 'Lora', serif;
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: var(--text-color);
+}
+
+.nav-menu {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+  margin-bottom: 0px !important; /* Reset margin from previous sidebar style */
+}
+
+.nav-link {
+  text-decoration: none;
+  color: var(--text-color);
+  font-weight: 500;
+  padding: 8px 16px;
+  border-radius: 6px;
+  transition: all 0.2s;
+}
+
+.nav-link:hover, .nav-link.active {
+  background-color: var(--accent-color);
+  color: white !important;
+}
+
+/* Sidebar Styling (Social & Profile) */
 .sidebar {
   width: var(--sidebar-width);
   height: 100vh;
   position: fixed;
+  left: 0;
+  top: 0;
   background-color: var(--sidebar-bg);
   border-right: 1px solid var(--border-color);
-  padding: 40px 30px;
+  padding: 30px 10px;
   display: flex;
   flex-direction: column;
-  overflow-y: auto;
+  align-items: center;
+  z-index: 101;
 }
 
 .sidebar-profile {
@@ -74,13 +122,13 @@ a:hover {
 }
 
 .sidebar-img {
-  width: 140px;
-  height: 140px;
+  width: 80px;
+  height: 80px;
   border-radius: 50%;
   object-fit: cover;
-  border: 4px solid var(--bg-color);
+  border: 3px solid var(--bg-color);
   box-shadow: 0 4px 12px rgba(0,0,0,0.1);
-  margin-bottom: 20px;
+  margin-bottom: 15px;
 }
 
 .sidebar-name {
@@ -101,7 +149,7 @@ a:hover {
 }
 
 .nav-item {
-  margin-bottom: 8px;
+  margin-bottom: 0;
 }
 
 .nav-link {
@@ -121,20 +169,21 @@ a:hover {
 
 .social-links {
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
   gap: 15px;
-  justify-content: center;
-  margin-top: 40px;
+  align-items: center;
+  margin-top: 30px;
   padding-top: 20px;
   border-top: 1px solid var(--border-color);
+  width: 100%;
 }
 
 .social-icon-link {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 42px;
-  height: 42px;
+  width: 38px;
+  height: 38px;
   background-color: var(--bg-color);
   border: 1px solid var(--border-color);
   border-radius: 50%;
@@ -159,10 +208,11 @@ a:hover {
 /* Main Content Styling */
 .main-content {
   margin-left: var(--sidebar-width);
+  margin-top: var(--nav-height);
   flex: 1;
-  padding: 80px 60px;
-  max-width: 1000px; /* Limits width to keep text readable */
-  margin-right: auto; /* Centers content within the remaining space */
+  padding: 60px;
+  max-width: 1000px;
+  margin-right: auto;
 }
 
 h1, h2, h3 {
@@ -225,24 +275,52 @@ p {
   body {
     flex-direction: column;
   }
+  .top-nav {
+    width: 100%;
+    left: 0;
+    padding: 0 15px;
+    height: auto;
+    min-height: var(--nav-height);
+    flex-direction: column;
+    padding: 10px;
+    position: relative;
+  }
+  .nav-brand {
+    margin-bottom: 10px;
+  }
+  .nav-menu {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 5px;
+  }
   .sidebar {
     width: 100%;
     height: auto;
     position: relative;
-    padding: 30px 20px;
+    flex-direction: row;
+    justify-content: center;
+    padding: 20px;
+    border-right: none;
+    border-bottom: 1px solid var(--border-color);
+  }
+  .sidebar-img {
+    margin-bottom: 0;
+    margin-right: 20px;
+    width: 60px;
+    height: 60px;
+  }
+  .social-links {
+    flex-direction: row;
+    margin-top: 0;
+    padding-top: 0;
+    border-top: none;
+    width: auto;
+    gap: 10px;
   }
   .main-content {
     margin-left: 0;
+    margin-top: 0;
     padding: 40px 20px;
-  }
-  .nav-menu {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 10px;
-  }
-  .nav-item {
-    margin-bottom: 0;
   }
 }
 
