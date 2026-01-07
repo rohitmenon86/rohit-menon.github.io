@@ -234,11 +234,32 @@ a:hover {
   min-width: 0;
 }
 
-h1, h2, h3 {
+h1 {
   font-family: 'Lora', serif;
+  font-size: 2.25rem;
   color: var(--text-color);
-  margin-top: 1.5em;
-  margin-bottom: 0.8em;
+  margin-top: 0;
+  margin-bottom: 2rem;
+  padding-bottom: 1rem;
+  border-bottom: 2px solid var(--accent-color);
+}
+
+h2 {
+  font-family: 'Lora', serif;
+  font-size: 1.75rem;
+  color: var(--text-color);
+  margin-top: 3.5rem;
+  margin-bottom: 1.5rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid var(--border-color);
+}
+
+h3 {
+  font-family: 'Lora', serif;
+  font-size: 1.3rem;
+  color: var(--text-color);
+  margin-top: 2rem;
+  margin-bottom: 1rem;
 }
 
 footer {
@@ -263,12 +284,14 @@ footer a:hover {
 }
 
 .page-header {
+  margin-bottom: 2.5rem;
+}
+
+.page-header h1 { 
+  margin: 0; 
   display: flex;
   justify-content: space-between;
   align-items: baseline;
-  border-bottom: 1px solid var(--border-color);
-  margin-bottom: 2rem;
-  padding-bottom: 1rem;
 }
 
 .page-header h1 { margin: 0; }
@@ -431,13 +454,28 @@ p {
 }
 
 /* Section Specific Utilities */
-.entry { margin-bottom: 32px; }
+.entry {
+  margin-bottom: 2rem;
+  padding-bottom: 2rem;
+}
+
+.entry:not(:last-child) {
+  border-bottom: 1px dashed var(--border-color);
+}
+
 .entry-header { display: flex; justify-content: space-between; margin-bottom: 4px; }
 .entry-title { font-weight: 600; font-size: 1.2rem; }
 .entry-org { font-style: italic; color: var(--text-muted); }
 .entry-time { color: var(--text-muted); font-size: 0.95rem; }
 
-.publication { margin-bottom: 30px; }
+.publication {
+  margin-bottom: 2rem;
+  padding-bottom: 2rem;
+}
+
+.publication:not(:last-child) {
+  border-bottom: 1px dashed var(--border-color);
+}
 .publication-title { font-weight: 600; margin-bottom: 4px; display: block; }
 .publication-links { margin-top: 8px; }
 .pub-link {
