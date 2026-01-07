@@ -28,7 +28,7 @@
 }
 
 html {
-  scroll-padding-top: calc(var(--nav-height) + 2rem);
+  scroll-padding-top: calc(var(--nav-height) + 4rem);
   scroll-behavior: smooth;
 }
 
