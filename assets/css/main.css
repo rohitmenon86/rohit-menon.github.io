@@ -122,7 +122,8 @@ body {
   margin-left: var(--sidebar-width);
   flex: 1;
   padding: 80px 60px;
-  max-width: 1000px;
+  max-width: 1000px; /* Limits width to keep text readable */
+  margin-right: auto; /* Centers content within the remaining space */
 }
 
 h1, h2, h3 {
