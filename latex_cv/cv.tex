@@ -1,0 +1,121 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[left=0.75in,top=0.6in,right=0.75in,bottom=0.6in]{geometry}
+\usepackage{hyperref}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage{xcolor}
+
+% Color definitions
+\definecolor{primary}{HTML}{2563eb}
+\definecolor{text}{HTML}{1a1a1a}
+
+% Hyperref setup
+\hypersetup{
+    colorlinks=true,
+    linkcolor=primary,
+    urlcolor=primary,
+    pdftitle={Rohit Menon - CV}
+}
+
+% Title styling
+\titleformat{\section}{\large\bfseries\color{primary}}{}{0em}{}[\titlerule]
+\titlespacing*{\section}{0pt}{1.5ex plus 1ex minus .2ex}{1ex plus .2ex}
+
+% Custom commands
+\newcommand{\entry}[4]{
+    \noindent\textbf{#1} \hfill #2 \\
+    \textit{#3} \hfill \textit{#4} \par
+}
+
+\begin{document}
+
+% Header
+\begin{center}
+    {\LARGE \textbf{Rohit Menon}} \\
+    \vspace{0.5em}
+    PhD Candidate in Robotics \\
+    University of Bonn, Humanoid Robots Lab \\
+    \vspace{0.5em}
+    \small
+    \href{mailto:menon@hrl.uni-bonn.de}{menon@hrl.uni-bonn.de} $|$ 
+    \href{https://rohit-menon.com}{rohit-menon.com} $|$ 
+    \href{https://orcid.org/0000-0001-9724-1182}{ORCID: 0000-0001-9724-1182} \\
+    \href{https://scholar.google.de/citations?user=l0PmEYEAAAAJ}{Google Scholar} $|$ 
+    \href{https://www.researchgate.net/profile/Rohit-Menon-4}{ResearchGate} $|$ 
+    \href{https://github.com/rohitmenon86}{GitHub}
+\end{center}
+
+\vspace{1em}
+
+\section*{Education}
+\entry{Ph.D. in Computer Science (Ongoing)}{2022 -- Present}{University of Bonn}{Bonn, Germany}
+\begin{itemize}[noitemsep,topsep=0pt,leftmargin=1.5em]
+    \item Focus: Active Perception, Semantic Mapping, and Uncertainty-Aware AI for Agricultural Robotics.
+    \item Advisor: Prof. Dr. Maren Bennewitz, Humanoid Robots Lab.
+\end{itemize}
+
+\entry{M.Sc. in Automation and Robotics}{2012 -- 2015}{TU Dortmund University}{Dortmund, Germany}
+\begin{itemize}[noitemsep,topsep=0pt,leftmargin=1.5em]
+    \item Master's Thesis at DLR (German Aerospace Center) on Shared Autonomy for Assistive Robotics.
+\end{itemize}
+
+\entry{B.E. in Electrical Engineering}{2004 -- 2008}{University of Mumbai (SPCE)}{Mumbai, India}
+\begin{itemize}[noitemsep,topsep=0pt,leftmargin=1.5em]
+    \item Silver Medal for academic excellence in the Bachelor's Program.
+\end{itemize}
+
+\section*{Professional Experience}
+\entry{Research Associate}{2022 -- Present}{Humanoid Robots Lab, University of Bonn}{Bonn, Germany}
+\begin{itemize}[noitemsep,topsep=0pt,leftmargin=1.5em]
+    \item Leading research on autonomous fruit mapping and multi-arm manipulation in the PhenoRob Cluster of Excellence.
+    \item Developing evidential deep learning frameworks for uncertainty-aware semantic surface mapping.
+\end{itemize}
+
+\entry{Founding Engineer \& Group Lead (AI in Manipulation)}{2019 -- 2022}{NEURA Robotics}{Metzingen, Germany}
+\begin{itemize}[noitemsep,topsep=0pt,leftmargin=1.5em]
+    \item Spearheaded the AI division focusing on industrial manipulation and human-robot engagement.
+    \item Developed deep-learning based pick-and-place systems and multi-sensor fusion for collision avoidance.
+\end{itemize}
+
+\entry{Researcher (Robot Control)}{2015 -- 2019}{DFKI (Robotics Innovation Center)}{Bremen, Germany}
+\begin{itemize}[noitemsep,topsep=0pt,leftmargin=1.5em]
+    \item Contributed to EU projects (Hybr-IT, TransFIT, NeTTUN) on mobile manipulation and trajectories.
+    \item Served as DFKI Project Coordinator for the EIT Digital project iLevator (2016).
+\end{itemize}
+
+\entry{Master Thesis Student}{2014 -- 2015}{DLR - German Aerospace Center}{Wessling, Germany}
+\begin{itemize}[noitemsep,topsep=0pt,leftmargin=1.5em]
+    \item Developed shared autonomy interfaces for assistive robotic hands.
+\end{itemize}
+
+\section*{Honors \& Awards}
+\begin{itemize}[label=\tiny$\bullet$, leftmargin=1.5em]
+    \item \textbf{Best Poster Award}, IROS Workshop on Perception and Planning for Mobile Manipulation (2025).
+    \item \textbf{Deutschlandstipendium}, Awarded by the German Federal Government (2013).
+    \item \textbf{Silver Medal}, Bachelor in Electrical Engineering, SPCE, University of Mumbai (2008).
+    \item \textbf{Ratan Tata Scholarship}, Awarded for excellence in engineering (2006 -- 2008).
+\end{itemize}
+
+\section*{Selected Publications}
+\begin{itemize}[leftmargin=1.5em, itemsep=0.5em]
+    \item \textbf{Menon, R.}, et al. ``Open-Vocabulary and Semantic-Aware Reasoning for Search and Retrieval of Objects in Dynamic and Concealed Spaces.'' \textit{IROS Workshop on Perception and Planning for Mobile Manipulation}, 2025. (\textbf{Best Poster})
+    \item \textbf{Menon, R.}, Dengler, N., Pan, S., Chenchani, G.K., Bennewitz, M. ``EvidMTL: Evidential Multi-Task Learning for Uncertainty-Aware Semantic Surface Mapping from Monocular RGB Images.'' \textit{IROS}, 2025.
+    \item \textbf{Menon, R.}, Dengler, N., Bennewitz, M. ``GO-VMP: Global Optimization for View Motion Planning in Fruit Mapping.'' \textit{IROS}, 2025.
+    \item Lenz, C.*, \textbf{Menon, R.}*, et al. ``Hortibot: An Adaptive Multi-Arm System for Robotic Horticulture of Sweet Peppers.'' \textit{IROS}, 2024.
+    \item Marangoz, S.*, \textbf{Menon, R.}*, et al. ``DawnIK: Decentralized Collision-Aware Inverse Kinematics Solver for Heterogeneous Multi-Arm Systems.'' \textit{IEEE Humanoids}, 2023.
+    \item \textbf{Menon, R.}, et al. ``NBV-SC: Next Best View Planning Based on Shape Completion for Fruit Mapping.'' \textit{IROS}, 2023.
+\end{itemize}
+
+\section*{Professional Service}
+\begin{itemize}[label=\tiny$\bullet$, leftmargin=1.5em]
+    \item \textbf{Reviewer:} IEEE RA-L, IJRR, ICRA, IROS, CASE, Humanoids, RSS 2026.
+\end{itemize}
+
+\section*{Public Engagement}
+\begin{itemize}[label=\tiny$\bullet$, leftmargin=1.5em]
+    \item \textbf{Pint of Science (Bonn):} ``From Pixels to Peppers: Active Perception in Robotic Agriculture'' (2024).
+    \item \textbf{WDR Bonn:} Television interview on the HortiBot system and the future of robotics (2024).
+\end{itemize}
+
+\end{document}
