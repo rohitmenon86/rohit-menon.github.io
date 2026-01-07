@@ -34,7 +34,7 @@ def update_file(filepath, metrics):
         content = f.read()
 
     # Update Citations
-    content = re.sub(r'(<strong>)\d+\+?(</strong>\s*Total\s*Citations|</strong>\s*Citations)', r'\g<1>' + metrics["citations"] + r'+\g<2>', content)
+    content = re.sub(r'(<strong>)\d+\+?(</strong>\s*Citations)', r'\g<1>' + metrics["citations"] + r'\g<2>', content)
     
     # Update h-index
     content = re.sub(r'(<strong>)\d+(</strong>\s*h-index)', r'\g<1>' + metrics["h_index"] + r'\g<2>', content)
@@ -51,10 +51,8 @@ def main():
     
     if metrics:
         print(f"Found metrics: {metrics}")
-        update_file('index.html', metrics)
         update_file('research.html', metrics)
-        update_file('cv.html', metrics)
-        print("Updated files successfully.")
+        print("Updated research.html successfully.")
     else:
         print("Could not extract metrics.")
 
