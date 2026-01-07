@@ -33,6 +33,28 @@ body {
   display: flex;
 }
 
+a {
+  color: var(--accent-color);
+  text-decoration: none;
+  transition: opacity 0.2s;
+}
+
+a:hover {
+  opacity: 0.8;
+}
+
+/* Specific styling for content-heavy links (paragraphs, lists in main content) */
+.main-content a, .sidebar-tagline a {
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+@media (prefers-color-scheme: dark) {
+  .main-content a, .sidebar-tagline a {
+    color: #ffffff;
+  }
+}
+
 /* Sidebar Styling */
 .sidebar {
   width: var(--sidebar-width);
