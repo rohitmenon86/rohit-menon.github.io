@@ -4,10 +4,15 @@ Changelog
 2026-01-07
 ----------
 
+*   **Layout & Navigation Overhaul**:
+    *   Transitioned to a **top-horizontal navigation** scheme for primary page links.
+    *   Implemented a **centered 2-panel design** with a distinct profile sidebar and content area.
+    *   Enlarged profile picture (180px) and added descriptive text labels to social media links.
+    *   Optimized mobile responsiveness for the new 2-panel structure.
+
 *   **Multi-Page Architecture**:
     *   Transitioned from a single-page layout to a multi-page structure with dedicated pages: Home, Research, Teaching & Outreach, Industry, and CV.
-    *   Implemented a persistent left sidebar for streamlined navigation across all pages.
-    *   Optimized layout for desktop (centered content) and mobile (collapsed navigation).
+    *   Implemented persistent professional branding across all pages.
 
 *   **Content & Research Updates**:
     *   Added **Scientific Impact Metrics** (Citations 160+, h-index 7, i10-index 7) with Google Scholar verification.
