@@ -8,6 +8,9 @@ Changelog
     *   Added full author list (**Yasmin Schmiede, Maren Bennewitz, Hermann Blum**) to the Open-Vocabulary Reasoning paper in research and CV sections.
     *   Integrated official **standardized DOI links** (doi.org) for **EvidMTL**, **GO-VMP**, and **Flexible Grasping** publications.
     *   Fixed CSS selector to ensure **DOI icons** maintain their brand-specific blue color for all academic links.
+*   **SEO & Social Sharing**:
+    *   Implemented **Open Graph (OG)** and **Twitter Card** meta tags across all pages to provide rich link previews when sharing on social media.
+    *   Optimized meta descriptions for better search engine indexing and click-through rates.
 *   **Outreach & Engagement**:
     *   Updated **Pint of Science** schedule to **March 2025**.
     *   Integrated entries for **ICRA@40 Live Demo** (London) and the high-profile visit of **NRW State Premier Hendrik Wüst**.
