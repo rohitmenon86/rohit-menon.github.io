@@ -4,6 +4,10 @@ Changelog
 2026-01-08
 ----------
 
+*   **Outreach & Engagement**:
+    *   Updated **Pint of Science** schedule to **March 2025**.
+    *   Integrated entries for **ICRA@40 Live Demo** (London) and the high-profile visit of **NRW State Premier Hendrik Wüst**.
+    *   Refined **Science Night (Nacht der Technik)** and **Wissenschaftsfest** entries with updated years (**2024-2025**).
 *   **Professional History Updates**:
     *   Integrated **Siemens Ltd** (Senior Executive) experience into the Professional Background and CV pages.
     *   Synchronized the LaTeX CV source with updated experience and links.
