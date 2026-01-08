@@ -12,6 +12,15 @@ Changelog
     *   Updated the **"My Journey"** section to provide a polished narrative of industrial leadership and academic integration.
 *   **Institutional Linking**:
     *   Added external links for **DFKI RIC**, **Siemens Ltd**, and **DLR** across all relevant sections for improved credibility and navigation.
+*   **Research Gallery & UI Overhaul**:
+    *   Transitioned to a **cinematic 320px wide grid layout** for Selected Publications with custom research figures.
+    *   Enhanced publication visibility by removing image borders and adding **soft curved corners (12px)** and realistic shadows.
+    *   Increased main container width to **1400px** for a more immersive desktop experience.
+    *   Integrated the **official arXiv logo (PNG)** and enhanced icon visibility with high-contrast CSS filters.
+*   **Mobile Experience Tuning**:
+    *   Drastically reduced mobile header density by scaling profile elements and removing excessive vertical whitespace.
+    *   Fixed layout overflow for **Scientific Impact Metrics** by implementing flexible wrapping and increased side padding.
+    *   Optimized publication cards for mobile portrait view with centered, stacked figure arrangements.
 
 2026-01-07
 ----------

@@ -7,7 +7,12 @@
   --border-color: #e5e7eb;
   --sidebar-width: 280px;
   --nav-height: 70px;
-  --content-max-width: 1200px;
+  --content-max-width: 1400px;
+  --image-border-radius: 12px;
+  --arxiv-color: #ff4444;
+  --youtube-color: #ff0000;
+  --pdf-color: #ee3124;
+  --doi-color: #3b82f6;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -392,6 +397,7 @@ footer a:hover {
 .research-impact-tags {
   display: flex;
   gap: 12px;
+  flex-wrap: wrap; /* Allow wrapping on small screens */
 }
 
 .metric-tag {
@@ -552,7 +558,7 @@ p {
     top: 0 !important;
     flex-direction: column;
     align-items: center;
-    padding: 40px 20px !important;
+    padding: 20px 20px !important; /* Extremely tight padding */
     border-right: none;
     border-bottom: 1px solid var(--border-color);
     background-color: var(--sidebar-bg);
@@ -560,25 +566,28 @@ p {
 
   .sidebar-header {
     margin-right: 0;
-    margin-bottom: 20px;
+    margin-bottom: 4px; /* Minimal margin */
     text-align: center;
   }
 
   .sidebar-img {
-    width: 150px;
-    height: 150px;
+    width: 100px; /* Even smaller for mobile */
+    height: 100px;
     margin-right: 0;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
   }
 
   .sidebar-name {
     display: block;
-    font-size: 1.25rem;
+    font-size: 1.1rem;
+    line-height: 1.1;
   }
 
   .sidebar-tagline {
     display: block;
-    font-size: 0.85rem;
+    font-size: 0.75rem; /* Smaller tagline to save height */
+    margin-top: 1px;
+    margin-bottom: 0px;
   }
 
   .sidebar .social-links {
@@ -606,13 +615,21 @@ p {
 
   .main-content {
     width: 100% !important;
-    padding: 40px 20px !important;
+    padding: 30px 25px !important; /* Increased from 20px for better breathing room */
+  }
+
+  .page-header h1 {
+    display: block; /* Reset flex for mobile titles */
+    margin-bottom: 5px;
   }
 
   .page-header {
+    display: flex; /* Ensure flex is active */
     flex-direction: column;
     align-items: flex-start;
-    gap: 15px;
+    gap: 12px;
+    padding-bottom: 1.5rem;
+    margin-bottom: 2rem;
   }
 }
 
@@ -632,32 +649,104 @@ p {
 .entry-time { color: var(--text-muted); font-size: 0.95rem; }
 
 .publication {
-  margin-bottom: 2rem;
+  display: grid;
+  grid-template-columns: 320px 1fr;
+  gap: 40px;
+  margin-bottom: 3rem;
   padding-bottom: 2rem;
 }
 
 .publication:not(:last-of-type) {
   border-bottom: 1px dashed var(--border-color);
 }
-.publication-title { font-weight: 600; margin-bottom: 4px; display: block; }
-.publication-links { margin-top: 8px; }
+
+.publication-cover {
+  width: 320px;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+}
+
+.publication-cover img {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  border-radius: var(--image-border-radius);
+  border: none;
+  background: #fff;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.08); /* More pronounced shadow since border is gone */
+  transition: transform 0.3s ease;
+}
+
+.publication:hover .publication-cover img {
+  transform: scale(1.02);
+}
+
+@media (max-width: 768px) {
+  .publication {
+    grid-template-columns: 1fr;
+    gap: 24px;
+  }
+  .publication-cover {
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+    justify-content: center;
+  }
+}
+
+.publication-title { font-weight: 600; margin-bottom: 6px; display: block; font-size: 1.25rem; }
+.publication-authors { color: var(--text-color); margin-bottom: 4px; }
+.publication-authors strong { color: var(--accent-color); }
+.publication-venue { font-style: italic; color: var(--text-muted); margin-bottom: 8px; }
+.publication-links { margin-top: 12px; }
 .pub-link {
   text-decoration: none;
-  font-size: 0.85rem;
-  padding: 4px 10px;
+  font-size: 0.95rem; /* Increased from 0.85rem */
+  padding: 6px 14px; /* Increased from 4px 10px */
   border: 1px solid var(--border-color);
-  border-radius: 6px;
+  background: var(--sidebar-bg); /* Add subtle background */
+  border-radius: 8px; /* Slightly rounder */
   color: var(--text-muted);
-  margin-right: 8px;
+  margin-right: 12px;
+  margin-top: 8px;
   display: inline-flex;
   align-items: center;
-  gap: 6px;
+  gap: 8px; /* Increased gap */
   transition: all 0.2s;
 }
 
+.pub-link svg, .pub-link img {
+  width: 18px; /* Fixed size */
+  height: 18px;
+  flex-shrink: 0;
+}
+
+/* Make PNG icons (like arXiv) pop more */
+.pub-link img {
+  filter: contrast(1.2) saturate(1.2) drop-shadow(0.5px 0.5px 0px rgba(0,0,0,0.1));
+}
+
 .pub-link svg {
-  width: 14px;
-  height: 14px;
   fill: currentColor;
 }
-.pub-link:hover { border-color: var(--accent-color); color: var(--accent-color); }
+
+/* Brand specific icon colors */
+.pub-link[href*="youtube.com"] svg { color: var(--youtube-color); }
+.pub-link[href*="watch?v="] svg { color: var(--youtube-color); }
+.pub-link[href$=".pdf"] svg { color: var(--pdf-color); }
+.pub-link[href*="ieeexplore.ieee.org"] svg { color: var(--doi-color); }
+
+.pub-link:hover { 
+  border-color: var(--accent-color); 
+  color: var(--accent-color);
+  background: var(--bg-color);
+  transform: translateY(-2px); /* Subtle lift effect */
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+}
+
+/* Keep icon colors on hover or let them inherit? 
+   Let's make them slightly more vibrant on hover */
+.pub-link:hover svg {
+  filter: brightness(1.1);
+}
