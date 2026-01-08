@@ -287,6 +287,10 @@ a:hover {
   mask-image: url('../icons/globe.svg'); 
   -webkit-mask-image: url('../icons/globe.svg'); 
 }
+.icon-email { 
+  mask-image: url('../icons/email.svg'); 
+  -webkit-mask-image: url('../icons/email.svg'); 
+}
 
 /* Main Content Styling */
 .main-content {

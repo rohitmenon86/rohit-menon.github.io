@@ -21,6 +21,11 @@ Changelog
     *   Drastically reduced mobile header density by scaling profile elements and removing excessive vertical whitespace.
     *   Fixed layout overflow for **Scientific Impact Metrics** by implementing flexible wrapping and increased side padding.
     *   Optimized publication cards for mobile portrait view with centered, stacked figure arrangements.
+*   **Contact & Accessibility**:
+    *   Integrated **Direct Email Contact** into the sidebar and mobile navigation.
+    *   Created a custom SVG icon for email with persistent branding across all pages.
+    *   Implemented **Cache-Busting** across all pages to ensure immediate deployment of design refinements.
+
 
 2026-01-07
 ----------
