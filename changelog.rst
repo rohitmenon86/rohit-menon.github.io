@@ -6,6 +6,7 @@ Changelog
 
 *   **Research & Publications**:
     *   Added full author list (**Yasmin Schmiede, Maren Bennewitz, Hermann Blum**) to the Open-Vocabulary Reasoning paper in research and CV sections.
+    *   Integrated official **standardized DOI links** (doi.org) for **EvidMTL**, **GO-VMP**, and **Flexible Grasping** publications.
 *   **Outreach & Engagement**:
     *   Updated **Pint of Science** schedule to **March 2025**.
     *   Integrated entries for **ICRA@40 Live Demo** (London) and the high-profile visit of **NRW State Premier Hendrik Wüst**.
