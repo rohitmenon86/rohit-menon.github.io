@@ -1,6 +1,18 @@
 Changelog
 =========
 
+2026-01-08
+----------
+
+*   **Professional History Updates**:
+    *   Integrated **Siemens Ltd** (Senior Executive) experience into the Professional Background and CV pages.
+    *   Synchronized the LaTeX CV source with updated experience and links.
+*   **Narrative & Branding**:
+    *   Refined the **Home Hero** section with a focused descriptive framework ("Perceive-Predict-Plan").
+    *   Updated the **"My Journey"** section to provide a polished narrative of industrial leadership and academic integration.
+*   **Institutional Linking**:
+    *   Added external links for **DFKI RIC**, **Siemens Ltd**, and **DLR** across all relevant sections for improved credibility and navigation.
+
 2026-01-07
 ----------
 
