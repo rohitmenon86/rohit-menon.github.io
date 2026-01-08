@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2024.3.15)  8 JAN 2026 19:15
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2024.3.15)  8 JAN 2026 19:18
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -299,9 +299,9 @@ Here is how much of TeX's memory you used:
  21581 multiletter control sequences out of 15000+600000
  535755 words of font info for 35 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 34i,5n,37p,354b,420s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 34i,5n,37p,385b,420s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1095.pfb>
-Output written on /home/rohit/workspace/software/repos/rohit-menon.github.io/latex_cv/cv.pdf (2 pages, 102543 bytes).
+Output written on /home/rohit/workspace/software/repos/rohit-menon.github.io/latex_cv/cv.pdf (2 pages, 102847 bytes).
 PDF statistics:
  56 PDF objects out of 1000 (max. 8388607)
  44 compressed objects within 1 object stream
