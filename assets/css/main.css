@@ -739,7 +739,8 @@ p {
 .pub-link[href*="youtube.com"] svg { color: var(--youtube-color); }
 .pub-link[href*="watch?v="] svg { color: var(--youtube-color); }
 .pub-link[href$=".pdf"] svg { color: var(--pdf-color); }
-.pub-link[href*="ieeexplore.ieee.org"] svg { color: var(--doi-color); }
+.pub-link[href*="ieeexplore.ieee.org"] svg, 
+.pub-link[href*="doi.org"] svg { color: var(--doi-color); }
 
 .pub-link:hover { 
   border-color: var(--accent-color); 
