@@ -14,7 +14,7 @@ Changelog
     *   Added external links for **DFKI RIC**, **Siemens Ltd**, and **DLR** across all relevant sections for improved credibility and navigation.
 *   **Teaching & Mentorship**:
     *   Refined **Cognitive Robotics** description to reflect specialized focus on **Probabilistic Robotics**.
-    *   Updated teaching responsibilities to include **design of assignments/exams** and grading management.
+    *   Corrected role to **Teaching Assistant** and updated responsibilities to focus on **assignment/exam design** and grading.
     *   Integrated formal **Teaching Experience** sections into the dedicated Teaching page and CV (Web & LaTeX).
 *   **Contact & Accessibility**:
     *   Integrated **Direct Email Contact** into the sidebar and mobile navigation with a custom SVG icon.
