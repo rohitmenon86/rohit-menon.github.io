@@ -36,6 +36,7 @@
 - Added full paper titles, published-paper and arXiv links where available, and thumbnail-activated YouTube embeds.
 - Aligned lecture semesters at the right and summarized more than ten Humanoid Robots seminar projects from 2022 to 2026.
 - Added the preferred Pint of Science talk photograph and its presentation title.
+- Used the NBV-SC video teaser as the card's only media instead of repeating the cover figure.
 - Added separate teaching, outreach and experience pages using the current academic CV and official records.
 - Synced the current six-page academic CV and 25-entry BibTeX source.
 - Added explicit image credits and YouTube privacy disclosure.
