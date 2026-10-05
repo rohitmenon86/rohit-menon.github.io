@@ -17,6 +17,7 @@ Changelog
 * Added the supplied Pint of Science talk photograph and replaced it with the preferred brighter image.
 * Replaced the duplicate NBV-SC cover figure with its on-demand video teaser.
 * Replaced the duplicate DawnIK cover figure with its on-demand video teaser.
+* Placed the HortiBot Greenhouse demo beneath its cover figure.
 * Reorganized the site around Research, Teaching, Outreach, Experience and CV.
 * Added current SG-DOR, O-STaR and SG-AMP work alongside refreshed HortiBot, NBV-SC, EvidMTL and DawnIK project cards.
 * Added contribution and validation summaries based on the current academic CV and official publication records.

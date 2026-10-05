@@ -38,6 +38,7 @@
 - Added the preferred Pint of Science talk photograph and its presentation title.
 - Used the NBV-SC video teaser as the card's only media instead of repeating the cover figure.
 - Used the DawnIK video teaser as the card's only media instead of repeating the cover figure.
+- Placed the HortiBot Greenhouse demo directly below its cover figure.
 - Added separate teaching, outreach and experience pages using the current academic CV and official records.
 - Synced the current six-page academic CV and 25-entry BibTeX source.
 - Added explicit image credits and YouTube privacy disclosure.
