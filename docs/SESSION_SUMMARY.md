@@ -44,6 +44,7 @@
 - Removed the unsupported GO-VMP personal-contribution statement and replaced it with wording supported by the paper abstract.
 - Rewrote HortiBot to foreground the full perception stack and rewrote EvidMTL from the paper abstract, including its evidential depth loss and reported 30% mapping improvement.
 - Rewrote DawnIK, NBV-SC, Fruit Mapping and the assistive-grasping MSc thesis from their papers, replacing generic validation language with the actual methods and reported outcomes.
+- Removed first-person authorship qualifiers from the HortiBot, DawnIK, NBV-SC and assistive-grasping descriptions so the cards focus on the methods and results.
 - Added separate teaching, outreach and experience pages using the current academic CV and official records.
 - Synced the current six-page academic CV and 25-entry BibTeX source.
 - Added explicit image credits and YouTube privacy disclosure.

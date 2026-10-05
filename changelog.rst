@@ -23,6 +23,7 @@ Changelog
 * Removed an unsupported personal-contribution claim from the GO-VMP description and replaced it with paper-supported evaluation wording.
 * Rewrote the HortiBot description around the perception stack and the EvidMTL description around its evidential loss, uncertainty-aware mapping, and reported 30% improvement.
 * Replaced generic DawnIK, NBV-SC, fruit-mapping and assistive-grasping summaries with method- and result-specific descriptions from their papers.
+* Removed first-person authorship qualifiers from the project summaries so each card states what the work does.
 * Reorganized the site around Research, Teaching, Outreach, Experience and CV.
 * Added current SG-DOR, O-STaR and SG-AMP work alongside refreshed HortiBot, NBV-SC, EvidMTL and DawnIK project cards.
 * Added contribution and validation summaries based on the current academic CV and official publication records.
