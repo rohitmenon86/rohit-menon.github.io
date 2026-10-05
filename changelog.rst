@@ -18,6 +18,7 @@ Changelog
 * Replaced the duplicate NBV-SC cover figure with its on-demand video teaser.
 * Replaced the duplicate DawnIK cover figure with its on-demand video teaser.
 * Placed the HortiBot Greenhouse demo beneath its cover figure.
+* Kept Experience date ranges on one line and removed the DFKI unknown-object-picking bullet.
 * Reorganized the site around Research, Teaching, Outreach, Experience and CV.
 * Added current SG-DOR, O-STaR and SG-AMP work alongside refreshed HortiBot, NBV-SC, EvidMTL and DawnIK project cards.
 * Added contribution and validation summaries based on the current academic CV and official publication records.
