@@ -40,6 +40,7 @@
 - Used the DawnIK video teaser as the card's only media instead of repeating the cover figure.
 - Placed the HortiBot Greenhouse demo directly below its cover figure.
 - Kept Experience date ranges on one line and removed the DFKI unknown-object-picking bullet.
+- Added the official DFKI MobiPick video thumbnail and changed the Xenomai wording to "developed."
 - Added separate teaching, outreach and experience pages using the current academic CV and official records.
 - Synced the current six-page academic CV and 25-entry BibTeX source.
 - Added explicit image credits and YouTube privacy disclosure.
