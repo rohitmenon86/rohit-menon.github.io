@@ -20,6 +20,7 @@ Changelog
 * Placed the HortiBot Greenhouse demo beneath its cover figure.
 * Kept Experience date ranges on one line and removed the DFKI unknown-object-picking bullet.
 * Added the official MobiPick video thumbnail and simplified the Xenomai control wording.
+* Removed an unsupported personal-contribution claim from the GO-VMP description and replaced it with paper-supported evaluation wording.
 * Reorganized the site around Research, Teaching, Outreach, Experience and CV.
 * Added current SG-DOR, O-STaR and SG-AMP work alongside refreshed HortiBot, NBV-SC, EvidMTL and DawnIK project cards.
 * Added contribution and validation summaries based on the current academic CV and official publication records.
