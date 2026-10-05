@@ -45,6 +45,13 @@ body {
   justify-content: center;
 }
 
+button,
+input,
+select,
+textarea {
+  font: inherit;
+}
+
 .page-wrapper {
   display: flex;
   width: 100%;
@@ -773,8 +780,8 @@ p {
 .hero-title {
   max-width: 900px;
   margin-bottom: 1.25rem;
-  font-size: clamp(2rem, 3.4vw, 3.2rem);
-  line-height: 1.12;
+  font-size: clamp(1.75rem, 2.8vw, 2.65rem);
+  line-height: 1.16;
   letter-spacing: -0.025em;
 }
 
@@ -916,6 +923,11 @@ p {
   object-fit: cover;
   border-radius: 8px;
   background: #fff;
+}
+
+.project-media-contain {
+  padding: 0.65rem;
+  object-fit: contain;
 }
 
 .video-thumbnails {
@@ -1079,7 +1091,7 @@ p {
 
 @media (max-width: 560px) {
   .hero-title {
-    font-size: 1.9rem;
+    font-size: 1.65rem;
   }
 
   .hero-lede {

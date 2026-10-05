@@ -26,6 +26,7 @@
 - Added locally hosted clickable thumbnails for research, industry and outreach YouTube videos so full videos load only after selection.
 - Presented O-STaR and the IROS 2025 Best Poster work as separate featured research projects.
 - Added separate academic and industry CV downloads sourced from `CV_RohitMenon`.
+- Standardized the website on Inter sans-serif, reduced the homepage statement size, showed the full SG-DOR figure and added the WDR/HortiBot thumbnails.
 - Added separate teaching, outreach and experience pages using the current academic CV and official records.
 - Synced the current six-page academic CV and 25-entry BibTeX source.
 - Added explicit image credits and YouTube privacy disclosure.

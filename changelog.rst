@@ -4,6 +4,9 @@ Changelog
 2026-10-05
 ----------
 
+* Standardized all website typography on Inter sans-serif.
+* Reduced the homepage research-statement size and displayed the complete SG-DOR cover figure without cropping.
+* Added the supplied WDR Bonn screenshot and a clickable HortiBot YouTube thumbnail.
 * Reorganized the site around Research, Teaching, Outreach, Experience and CV.
 * Added current SG-DOR, O-STaR and SG-AMP work alongside refreshed HortiBot, NBV-SC, EvidMTL and DawnIK project cards.
 * Added contribution and validation summaries based on the current academic CV and official publication records.
