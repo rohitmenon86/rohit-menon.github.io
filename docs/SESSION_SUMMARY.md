@@ -35,6 +35,7 @@
 - Restored GO-VMP and Fruit Mapping, added the ICRA 2016 MSc thesis project and its compressed 25 fps muted video, and placed SG-AMP first with its IROS 2026 workshop venue.
 - Added full paper titles, published-paper and arXiv links where available, and thumbnail-activated YouTube embeds.
 - Aligned lecture semesters at the right and summarized more than ten Humanoid Robots seminar projects from 2022 to 2026.
+- Added the supplied Pint of Science talk photograph and its presentation title.
 - Added separate teaching, outreach and experience pages using the current academic CV and official records.
 - Synced the current six-page academic CV and 25-entry BibTeX source.
 - Added explicit image credits and YouTube privacy disclosure.
