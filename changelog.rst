@@ -1,6 +1,34 @@
 Changelog
 =========
 
+2026-10-05
+----------
+
+* Reorganized the site around Research, Teaching, Outreach, Experience and CV.
+* Added current SG-DOR, O-STaR and SG-AMP work alongside refreshed HortiBot, NBV-SC, EvidMTL and DawnIK project cards.
+* Added contribution and validation summaries based on the current academic CV and official publication records.
+* Added a compressed, muted 25 fps O-STaR preview and kept full external videos as explicit links, including the EvidMTL IROS 2025 talk at 3:08.
+* Distinguished O-STaR from the separate IROS 2025 Best Poster precursor and marked its arXiv link as forthcoming.
+* Added the Wissenschaftsfest demonstration recording at the supplied 1:05 timestamp.
+* Added the GITEX AI Expo demonstration recording at the supplied 1:00 timestamp.
+* Added MAiRA voice-controlled pick-and-place and robot tic-tac-toe engineering demonstration videos.
+* Added the MAiRA safe human-detection demonstration video.
+* Added a complete 2× HortiBot harvesting preview, compressed to 720p at 25 fps without audio.
+* Simplified the thesis-supervision presentation to direct topic and outcome entries.
+* Replaced student-name headings with project titles and listed each supervised lab project separately.
+* Added the five specified lab projects across Winter 2024/25, Winter 2025/26 and Summer 2026.
+* Added all five completed MSc thesis topics and two ongoing supervised MSc theses.
+* Added Placeability and GO-VMP as separate co-supervised MSc thesis entries.
+* Added screenshots for the two Summer 2026 open-vocabulary mobile-manipulation lab projects.
+* Added the NeTTUN demonstration video and separated Hybr-iT/MobiPick from TransFit in the DFKI experience entry.
+* Restored the complete academic and professional profile-link set across the site and reduced the homepage headline size.
+* Replaced the SG-DOR preview with the supplied cover figure and added local, clickable thumbnails for external YouTube demonstrations.
+* Split O-STaR and the IROS 2025 Best Poster workshop work into separate featured research entries.
+* Added separate academic and industry CV downloads generated from the CV source repository.
+* Added dedicated teaching, outreach and engineering-experience content, including verified thesis outcomes and image credits.
+* Replaced the downloadable CV and BibTeX database with the current academic versions.
+* Added responsive card, timeline and media styles for desktop and mobile layouts.
+
 2026-01-08
 ----------
 

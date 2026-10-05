@@ -1,0 +1,39 @@
+# Session summary
+
+## 2026-10-05 17:20 CEST — Research website content refresh
+
+- Reorganized navigation into Research, Teaching, Outreach, Experience and CV while retaining the existing visual design.
+- Rewrote the homepage around prior-guided active perception and added a HortiBot demonstration.
+- Added seven featured research projects with problem, contribution, result and available paper/video links.
+- Added current SG-DOR, O-STaR and SG-AMP figures and a compressed O-STaR preview.
+- Explicitly separated O-STaR from the distinct IROS 2025 Best Poster precursor and marked the O-STaR arXiv link as forthcoming.
+- Added the EvidMTL IROS 2025 highlights talk at the supplied 3:08 timestamp.
+- Added the Wissenschaftsfest demonstration recording at the supplied 1:05 timestamp.
+- Added the GITEX AI Expo demonstration recording at the supplied 1:00 timestamp.
+- Added MAiRA voice-controlled pick-and-place and robot tic-tac-toe engineering demonstration videos to Experience.
+- Added the MAiRA safe human-detection demonstration video to Experience.
+- Added the complete HortiBot harvesting sequence as a 13.5-second 2× preview, compressed to 720p at 25 fps without audio.
+- Simplified the thesis-supervision presentation to direct topic and outcome entries.
+- Replaced student-name headings with project titles and listed each supervised lab project separately.
+- Added the five specified lab projects across Winter 2024/25, Winter 2025/26 and Summer 2026.
+- Added all five completed MSc thesis topics and two ongoing supervised MSc theses.
+- Added Placeability and GO-VMP as co-supervised MSc thesis entries with their publication outcomes.
+- Added the supplied Flexible Command Grounding and Active Perception screenshots to the Summer 2026 lab-project cards.
+- Added the NeTTUN demonstration video and the Hybr-iT/MobiPick system page, describing motion planning and arm trajectory generation.
+- Restored Email, Google Scholar, ORCID, ResearchGate, GitHub, LinkedIn and HRL profile links across the site.
+- Reduced the homepage research headline on desktop and mobile.
+- Replaced the SG-DOR image with the supplied 16:9 cover figure.
+- Added locally hosted clickable thumbnails for research, industry and outreach YouTube videos so full videos load only after selection.
+- Presented O-STaR and the IROS 2025 Best Poster work as separate featured research projects.
+- Added separate academic and industry CV downloads sourced from `CV_RohitMenon`.
+- Added separate teaching, outreach and experience pages using the current academic CV and official records.
+- Synced the current six-page academic CV and 25-entry BibTeX source.
+- Added explicit image credits and YouTube privacy disclosure.
+
+Verification:
+
+- Checked all local links and required assets; no missing site targets.
+- Rendered the homepage at 1440 px and Research/Outreach at 390 px in headless Chrome; navigation, cards, images and video remained readable without horizontal overflow.
+- Confirmed the O-STaR asset is H.264, 1280×720, 25 fps, 12 seconds, 467 KB and has no audio stream.
+- Confirmed the downloadable academic CV is six A4 pages and the BibTeX database contains 25 records.
+- `git diff --check` completed without whitespace errors.
