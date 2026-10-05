@@ -1,5 +1,9 @@
 # Recent changes
 
+## 2026-10-05 — Mobile profile photograph
+
+- Increased the homepage profile photograph from 100 px to 140 px on mobile screens.
+
 ## 2026-10-05 — Website content checkpoint
 
 - Refresh personal academic website content and navigation.

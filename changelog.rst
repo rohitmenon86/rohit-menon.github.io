@@ -4,6 +4,7 @@ Changelog
 2026-10-05
 ----------
 
+* Increased the homepage profile photograph size on mobile screens.
 * Standardized all website typography on Inter sans-serif.
 * Reduced the homepage research-statement size and displayed the complete SG-DOR cover figure without cropping.
 * Added the supplied WDR Bonn screenshot and a clickable HortiBot YouTube thumbnail.

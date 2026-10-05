@@ -581,8 +581,8 @@ p {
   }
 
   .sidebar-img {
-    width: 100px; /* Even smaller for mobile */
-    height: 100px;
+    width: 140px;
+    height: 140px;
     margin-right: 0;
     margin-bottom: 10px;
   }

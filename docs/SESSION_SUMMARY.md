@@ -1,5 +1,15 @@
 # Session summary
 
+## 2026-10-05 21:25 CEST — Mobile profile photograph
+
+- Increased the homepage profile photograph from 100 × 100 px to 140 × 140 px at viewport widths up to 1024 px.
+- Left the desktop portrait and all non-profile images unchanged.
+
+Verification:
+
+- Confirmed the mobile media query contains the new dimensions.
+- `git diff --check` completed without whitespace errors.
+
 ## 2026-10-05 17:20 CEST — Research website content refresh
 
 - Reorganized navigation into Research, Teaching, Outreach, Experience and CV while retaining the existing visual design.
