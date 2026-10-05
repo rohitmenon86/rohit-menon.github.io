@@ -42,6 +42,8 @@
 - Kept Experience date ranges on one line and removed the DFKI unknown-object-picking bullet.
 - Added the official DFKI MobiPick video thumbnail and changed the Xenomai wording to "developed."
 - Removed the unsupported GO-VMP personal-contribution statement and replaced it with wording supported by the paper abstract.
+- Rewrote HortiBot to foreground the full perception stack and rewrote EvidMTL from the paper abstract, including its evidential depth loss and reported 30% mapping improvement.
+- Rewrote DawnIK, NBV-SC, Fruit Mapping and the assistive-grasping MSc thesis from their papers, replacing generic validation language with the actual methods and reported outcomes.
 - Added separate teaching, outreach and experience pages using the current academic CV and official records.
 - Synced the current six-page academic CV and 25-entry BibTeX source.
 - Added explicit image credits and YouTube privacy disclosure.
