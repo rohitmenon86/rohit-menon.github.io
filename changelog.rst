@@ -14,7 +14,7 @@ Changelog
 * Added published-paper and arXiv links where available, full paper titles, and on-demand video embeds.
 * Reordered teaching and outreach entries in reverse chronological order and aligned lecture semesters on the right.
 * Expanded seminar supervision to reflect more than ten projects from 2022 to 2026.
-* Added the supplied Pint of Science talk photograph.
+* Added the supplied Pint of Science talk photograph and replaced it with the preferred brighter image.
 * Reorganized the site around Research, Teaching, Outreach, Experience and CV.
 * Added current SG-DOR, O-STaR and SG-AMP work alongside refreshed HortiBot, NBV-SC, EvidMTL and DawnIK project cards.
 * Added contribution and validation summaries based on the current academic CV and official publication records.
