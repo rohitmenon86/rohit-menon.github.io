@@ -7,6 +7,13 @@ Changelog
 * Standardized all website typography on Inter sans-serif.
 * Reduced the homepage research-statement size and displayed the complete SG-DOR cover figure without cropping.
 * Added the supplied WDR Bonn screenshot and a clickable HortiBot YouTube thumbnail.
+* Restored the HortiBot cover figure as the main project image and kept its video as a separate preview.
+* Adjusted NBV-SC, EvidMTL and DawnIK cards to display their full figures without cropping.
+* Replaced structured project summaries with concise descriptions and highlighted conference venues and locations.
+* Reordered featured research in reverse chronological order, restored GO-VMP and fruit mapping, and added the ICRA 2016 MSc thesis project.
+* Added published-paper and arXiv links where available, full paper titles, and on-demand video embeds.
+* Reordered teaching and outreach entries in reverse chronological order and aligned lecture semesters on the right.
+* Expanded seminar supervision to reflect more than ten projects from 2022 to 2026.
 * Reorganized the site around Research, Teaching, Outreach, Experience and CV.
 * Added current SG-DOR, O-STaR and SG-AMP work alongside refreshed HortiBot, NBV-SC, EvidMTL and DawnIK project cards.
 * Added contribution and validation summaries based on the current academic CV and official publication records.

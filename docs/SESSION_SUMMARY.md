@@ -27,6 +27,14 @@
 - Presented O-STaR and the IROS 2025 Best Poster work as separate featured research projects.
 - Added separate academic and industry CV downloads sourced from `CV_RohitMenon`.
 - Standardized the website on Inter sans-serif, reduced the homepage statement size, showed the full SG-DOR figure and added the WDR/HortiBot thumbnails.
+- Used the HortiBot cover figure as the project image and retained the video as a separate thumbnail.
+- Displayed the complete NBV-SC, EvidMTL and DawnIK figures with contained image fitting.
+- Stacked project figures above their video thumbnails in the media column; labelled the HortiBot video “Greenhouse demo.”
+- Replaced Problem/Contribution/Result blocks and author-role labels with concise descriptions and prominent conference-location badges.
+- Reordered research, teaching, lab-project and outreach entries in reverse chronological order.
+- Restored GO-VMP and Fruit Mapping, added the ICRA 2016 MSc thesis project and its compressed 25 fps muted video, and placed SG-AMP first with its IROS 2026 workshop venue.
+- Added full paper titles, published-paper and arXiv links where available, and thumbnail-activated YouTube embeds.
+- Aligned lecture semesters at the right and summarized more than ten Humanoid Robots seminar projects from 2022 to 2026.
 - Added separate teaching, outreach and experience pages using the current academic CV and official records.
 - Synced the current six-page academic CV and 25-entry BibTeX source.
 - Added explicit image credits and YouTube privacy disclosure.
