@@ -1,6 +1,11 @@
 Changelog
 =========
 
+2026-10-06
+----------
+
+* Updated both CVs to list English at C2 and German at B2, without a telc reference.
+
 2026-10-05
 ----------
 

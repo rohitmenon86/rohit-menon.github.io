@@ -1,5 +1,10 @@
 # Recent changes
 
+## 2026-10-06 — CV language proficiency
+
+- Updated the academic CV and résumé to list English C2 and German B2.
+- Neither CV includes a telc reference.
+
 ## 2026-10-05 — Mobile profile photograph
 
 - Increased the homepage profile photograph from 100 px to 140 px on mobile screens.

@@ -1,5 +1,20 @@
 # Session summary
 
+## 2026-10-06 10:58 CEST — CV language proficiency
+
+- Updated both LaTeX CV sources to list English C2 and German B2; no telc reference remains.
+- Rebuilt the six-page academic CV and two-page résumé and replaced the website downloads.
+- Updated the legacy `cv.pdf` academic-CV alias for consistency.
+- Removed a commented field that caused BibTeX to reject the academic publication database during the rebuild; publication content is unchanged.
+
+Verification:
+
+- Both PDFs compile successfully with `latexmk` and contain the requested language text.
+- The academic CV remains six A4 pages and the résumé remains two A4 pages.
+- Rendered and visually inspected all eight pages; no clipping, overlap or layout regression was observed.
+- Confirmed the website PDFs match the rebuilt source PDFs by SHA-256.
+- `git diff --check` completed without whitespace errors.
+
 ## 2026-10-05 21:25 CEST — Mobile profile photograph
 
 - Increased the homepage profile photograph from 100 × 100 px to 140 × 140 px at viewport widths up to 1024 px.
