@@ -1,5 +1,9 @@
 # Recent changes
 
+## 2026-10-06 — Selected-publication BibTeX
+
+- Added a BibTeX download containing only first-author and equal-first-author publications.
+
 ## 2026-10-06 — CV contact details
 
 - Removed the phone number from both downloadable CV headers.

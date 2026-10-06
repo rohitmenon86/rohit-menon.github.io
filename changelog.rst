@@ -4,6 +4,7 @@ Changelog
 2026-10-06
 ----------
 
+* Added a selected BibTeX download for first-author and equal-first-author publications.
 * Removed the phone number from both downloadable CV headers.
 * Updated both CVs to list English at C2 and German at B2, without a telc reference.
 

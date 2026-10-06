@@ -1,5 +1,17 @@
 # Session summary
 
+## 2026-10-06 13:10 CEST — Selected-publication BibTeX
+
+- Added `selected_publications.bib` with only first-author and explicitly marked equal-first-author records.
+- Added separate Selected BibTeX and All BibTeX downloads to the CV page.
+
+Verification:
+
+- Confirmed all nine selected entries exactly match the authoritative academic-CV bibliography.
+- Confirmed every selected entry lists Rohit Menon first or within the declared equal-first-author group.
+- Rendered the CV page at desktop and mobile widths; all four download buttons remain readable and correctly arranged.
+- `git diff --check` completed without whitespace errors.
+
 ## 2026-10-06 13:05 CEST — CV phone-number removal
 
 - Removed the phone number from the academic and industry CV headers.
