@@ -1,5 +1,9 @@
 # Recent changes
 
+## 2026-10-06 — CV contact details
+
+- Removed the phone number from both downloadable CV headers.
+
 ## 2026-10-06 — CV language proficiency
 
 - Updated the academic CV and résumé to list English C2 and German B2.

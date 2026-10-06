@@ -1,5 +1,19 @@
 # Session summary
 
+## 2026-10-06 13:05 CEST — CV phone-number removal
+
+- Removed the phone number from the academic and industry CV headers.
+- Rebuilt both PDFs and replaced the website downloads.
+- Updated the legacy `cv.pdf` academic-CV alias for consistency.
+
+Verification:
+
+- Confirmed text extraction from both rebuilt PDFs contains no phone number.
+- The academic CV remains six A4 pages and the industry CV remains two A4 pages.
+- Rendered and visually inspected all eight pages; no layout regression was observed.
+- Confirmed the website PDFs match the rebuilt source PDFs by SHA-256.
+- `git diff --check` completed without whitespace errors.
+
 ## 2026-10-06 10:58 CEST — CV language proficiency
 
 - Updated both LaTeX CV sources to list English C2 and German B2; no telc reference remains.
