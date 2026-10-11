@@ -4,14 +4,14 @@
 
 - Replaced the downloadable academic CV and industry résumé with the current rebuilt PDFs.
 - Updated the legacy `cv.pdf` academic-CV alias for consistency.
-- Replaced the short O-STaR preview with the supplied full paper video and enabled its audio playback.
+- Replaced the short O-STaR preview with the supplied full paper video and removed its silent audio track.
 
 Verification:
 
 - Confirmed both website downloads match their source PDFs by SHA-256.
 - Confirmed the academic CV is six A4 pages and the industry résumé is two A4 pages.
 - Confirmed neither PDF contains a telephone number in its extracted text.
-- Confirmed the O-STaR video uses browser-compatible H.264 video and AAC audio.
+- Confirmed the O-STaR video uses browser-compatible H.264 video and contains no audio stream.
 - `git diff --check` completed without whitespace errors.
 
 ## 2026-10-06 13:10 CEST — Selected-publication BibTeX
