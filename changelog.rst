@@ -6,7 +6,7 @@ Changelog
 
 * Updated the downloadable academic CV and industry résumé.
 * Replaced the O-STaR preview with the full paper video and removed its silent audio track.
-* Updated the O-STaR poster image to the video frame at 02:03.
+* Updated the O-STaR poster image to the video frame at 02:04.
 
 2026-10-06
 ----------

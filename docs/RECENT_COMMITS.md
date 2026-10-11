@@ -4,7 +4,7 @@
 
 - Replaced the downloadable academic CV and industry résumé with their current versions.
 - Replaced the O-STaR preview with the full paper video.
-- Updated its poster image to the frame at 02:03.
+- Updated its poster image to the frame at 02:04.
 
 ## 2026-10-06 — Selected-publication BibTeX
 
