@@ -5,6 +5,7 @@ Changelog
 ----------
 
 * Updated the downloadable academic CV and industry résumé.
+* Replaced the O-STaR preview with the full paper video and enabled audio playback.
 
 2026-10-06
 ----------

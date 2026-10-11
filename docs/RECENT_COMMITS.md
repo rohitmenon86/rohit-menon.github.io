@@ -1,8 +1,9 @@
 # Recent changes
 
-## 2026-10-11 — CV refresh
+## 2026-10-11 — CV and O-STaR video refresh
 
 - Replaced the downloadable academic CV and industry résumé with their current versions.
+- Replaced the O-STaR preview with the full paper video.
 
 ## 2026-10-06 — Selected-publication BibTeX
 
