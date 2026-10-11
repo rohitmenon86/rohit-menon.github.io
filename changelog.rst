@@ -1,6 +1,11 @@
 Changelog
 =========
 
+2026-10-11
+----------
+
+* Updated the downloadable academic CV and industry résumé.
+
 2026-10-06
 ----------
 

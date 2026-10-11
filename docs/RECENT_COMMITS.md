@@ -1,5 +1,9 @@
 # Recent changes
 
+## 2026-10-11 — CV refresh
+
+- Replaced the downloadable academic CV and industry résumé with their current versions.
+
 ## 2026-10-06 — Selected-publication BibTeX
 
 - Added a BibTeX download containing only first-author and equal-first-author publications.
