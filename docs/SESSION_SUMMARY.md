@@ -1,5 +1,18 @@
 # Session summary
 
+## 2026-10-12 14:49 CEST — Public industry résumé refresh
+
+- Replaced the website's downloadable industry résumé with the approved public-facing version derived from the Analog Devices application CV.
+- The public version omits the phone number and references; the internal master CV was not copied to the website.
+
+Verification:
+
+- Confirmed the website PDF matches the approved source PDF by SHA-256.
+- Confirmed the résumé is two A4 pages.
+- Confirmed extracted text contains neither the phone number nor the removed reference contact details.
+- Rendered and visually inspected both pages before copying the approved PDF.
+- `git diff --check` completed without whitespace errors.
+
 ## 2026-10-11 23:30 CEST — Website CV and O-STaR video refresh
 
 - Replaced the downloadable academic CV and industry résumé with the current rebuilt PDFs.
@@ -57,16 +70,7 @@ Verification:
 - Confirmed the website PDFs match the rebuilt source PDFs by SHA-256.
 - `git diff --check` completed without whitespace errors.
 
-## 2026-10-05 21:25 CEST — Mobile profile photograph
-
-- Increased the homepage profile photograph from 100 × 100 px to 140 × 140 px at viewport widths up to 1024 px.
-- Left the desktop portrait and all non-profile images unchanged.
-
-Verification:
-
-- Confirmed the mobile media query contains the new dimensions.
-- `git diff --check` completed without whitespace errors.
-
 ## Archive
 
+- 2026-10-05 21:25 CEST — Increased the homepage profile photograph size on mobile screens.
 - 2026-10-05 17:20 CEST — Refreshed website content, navigation, research media, teaching, outreach, experience and CV downloads.

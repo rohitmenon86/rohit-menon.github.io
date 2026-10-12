@@ -1,5 +1,10 @@
 # Recent changes
 
+## 2026-10-12 — Public industry résumé refresh
+
+- Replaced the downloadable industry résumé with the approved public-facing version derived from the Analog Devices application CV.
+- The public résumé omits the phone number and references.
+
 ## 2026-10-11 — CV and O-STaR video refresh
 
 - Replaced the downloadable academic CV and industry résumé with their current versions.

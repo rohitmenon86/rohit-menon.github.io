@@ -1,6 +1,12 @@
 Changelog
 =========
 
+2026-10-12
+----------
+
+* Replaced the downloadable industry résumé with the approved public-facing version derived from the Analog Devices application CV.
+* Kept the public résumé free of phone numbers and references.
+
 2026-10-11
 ----------
 
