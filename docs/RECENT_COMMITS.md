@@ -5,13 +5,16 @@
 - Added verified Hugging Face checkpoint and dataset links to the SG-DOR publication card.
 - Added the EvidMTL checkpoint link and HortiBot pepper/peduncle dataset link.
 - Added HumanoidsBonn code links for SG-DOR, EvidMTL, HortiBot and DawnIK.
+- Added the Stretch-Compose code link and updated the O-STaR paper link.
 - Replaced the academic CV with the current five-page public version and updated Google Scholar metrics to 258 citations, h-index 9 and i10-index 9.
 - Synchronized the full and selected BibTeX downloads with the current publication records.
 - Added RSS 2027 Shepherd and HRI 2027 Pioneers Senior Reviewer news.
+- Moved all updates into a rotating top banner showing three items at once with Older/Newer controls.
 - Added a homepage banner for postdoctoral and research group leader availability from April 2027.
 - Reframed the forward research direction around resource-efficient, adaptable robots for long-horizon mobile manipulation.
 - Synchronized the experience and teaching pages with current academic-CV details.
 - Replaced the homepage portrait with the photograph used in the academic CV.
+- Rebuilt the homepage as a modern single-page research profile while retaining detailed secondary pages.
 
 ## 2026-10-12 — Public industry résumé refresh
 

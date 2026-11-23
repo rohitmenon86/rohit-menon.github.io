@@ -6,23 +6,28 @@
 - Added the public EvidMTL checkpoint repository to its research card.
 - Added the public HortiBot pepper/peduncle detection dataset to its research card.
 - Added the corresponding HumanoidsBonn code repositories for SG-DOR, EvidMTL, HortiBot and DawnIK.
+- Added the official `rpl-bonn/stretch-compose` code repository to the IROS 2025 workshop project and updated the O-STaR paper button to the current HRL manuscript page.
 - Did not add a HortiBot checkpoint link because no public HortiBot model repository was present under the confirmed `rohitmenon86` account.
 - Replaced the downloadable academic CV and legacy `cv.pdf` alias with the current five-page public academic CV; retained its content and 258/9/9 Google Scholar metrics while omitting the phone number.
 - Synchronized the full website BibTeX file with the current publication database and updated the selected BibTeX file with OMAR and the current O-STaR and SG-AMP records.
 - Added the verified Google Scholar metrics to the CV page.
 - Added homepage news for service as an RSS 2027 Shepherd and HRI 2027 Pioneers Senior Reviewer.
+- Moved all five updates into a rotating news area at the top of the homepage, with three items visible at once, Older/Newer controls, hover/focus pausing and reduced-motion support.
 - Added a homepage availability banner for postdoctoral and research group leader positions from April 2027.
 - Updated the research themes from the academic application materials, keeping the forward direction abstract and focused on resource-efficient, adaptable robots for long-horizon mobile manipulation.
 - Updated the experience page with the current University of Bonn role, research output, supervision, funding contributions and research-infrastructure procurement listed in the academic CV.
 - Updated the teaching page to seven completed and two ongoing MSc theses, three thesis awards, two Winter 2026/27 lab projects and six MSc Mobile Robotics mentees.
 - Removed application-specific institutional wording from all public pages, downloadable academic-CV text, BibTeX comments and website documentation.
 - Replaced the homepage portrait with the photograph used in the current academic CV, zoomed out to keep the full head and face inside the circular frame without stretching it.
+- Rebuilt the homepage as a modern single-page research profile: concise research identity and availability, three-at-a-time news, research agenda, selected projects with direct artifacts, open-source resources, experience, and contact. Detailed Research, Teaching, Outreach, Experience and CV pages remain available as secondary pages.
+- Used current early-career robotics sites, including Lukas Rosenberger Schmid and Anxing Xiao, as structural references for a research-first narrative, compact news and direct project links; no external design assets or copy were reused.
 
 Verification:
 
 - Confirmed all four Hugging Face URLs return HTTP 200.
 - Confirmed the Hugging Face API lists the linked resources as public repositories owned by `rohitmenon86`.
 - Confirmed the four linked HumanoidsBonn repositories through the public GitHub API.
+- Confirmed the public Stretch-Compose repository and current O-STaR HRL manuscript page before linking them.
 - Confirmed the live Google Scholar profile reports 258 citations, h-index 9 and i10-index 9.
 - Confirmed both academic-CV website filenames match by SHA-256, contain five A4 pages and do not contain the phone number.
 - Confirmed the public website files and extracted academic-CV text contain no application-specific institutional wording.
@@ -30,6 +35,8 @@ Verification:
 - Rendered and visually inspected the updated research page at desktop width and the updated CV page at mobile width; the new links and metrics fit without clipping or overflow.
 - Rendered and visually inspected the revised homepage at desktop and mobile widths, the research and experience pages at desktop width, and the teaching page at mobile width; the opportunity banner and CV-derived additions fit without clipping or horizontal overflow.
 - Rendered and visually inspected the replacement portrait in the circular homepage frame at desktop and mobile widths.
+- Rendered and visually inspected the top news area with the newest and oldest three-item windows at desktop width and the three stacked visible items at mobile width; automatic rotation and Older/Newer states behaved as intended.
+- Rendered and visually inspected the redesigned single-page homepage at desktop and mobile widths, including its hero, three-item news window, research themes, six project cards, open-resource band, experience cards and position callout; corrected inherited mobile alignment and dark-section heading colors.
 - Verified the edited HTML structure, BibTeX entry sets and internal links.
 - `git diff --check` completed without whitespace errors.
 
