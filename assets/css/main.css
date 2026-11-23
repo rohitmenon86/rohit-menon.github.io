@@ -1438,14 +1438,14 @@ p {
   display: flex;
   flex-direction: column;
   color: var(--home-ink);
-  font-size: 1.35rem;
+  font-size: 1.6rem;
   font-weight: 700;
   line-height: 1.2;
 }
 
 .home-wordmark span {
   color: var(--home-muted);
-  font-size: 0.8rem;
+  font-size: 0.9rem;
   font-weight: 500;
 }
 
@@ -2066,6 +2066,14 @@ p {
 }
 
 @media (max-width: 760px) {
+  .home-wordmark {
+    font-size: 1.45rem;
+  }
+
+  .home-wordmark span {
+    font-size: 0.78rem;
+  }
+
   .home-shell,
   .home-nav {
     width: min(100% - 32px, 1180px);
