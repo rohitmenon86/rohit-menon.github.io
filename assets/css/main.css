@@ -791,6 +791,48 @@ p {
   color: var(--text-muted);
 }
 
+.opportunity-banner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1.5rem;
+  max-width: 900px;
+  margin: 1.75rem 0 0;
+  padding: 1.25rem 1.4rem;
+  border: 1px solid rgba(37, 99, 235, 0.28);
+  border-left: 5px solid var(--accent-color);
+  border-radius: 10px;
+  background: rgba(37, 99, 235, 0.06);
+}
+
+.opportunity-banner h2 {
+  margin: 0.2rem 0 0.35rem;
+  padding: 0;
+  border: 0;
+  font-size: 1.2rem;
+}
+
+.opportunity-banner p {
+  max-width: 680px;
+  margin: 0;
+  color: var(--text-muted);
+  font-size: 0.95rem;
+}
+
+.opportunity-banner .button {
+  flex: 0 0 auto;
+  margin: 0;
+  white-space: nowrap;
+}
+
+.opportunity-label {
+  color: var(--accent-color);
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
 .button-row,
 .project-links {
   display: flex;
@@ -1160,6 +1202,11 @@ p {
 }
 
 @media (max-width: 900px) {
+  .opportunity-banner {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
   .theme-grid,
   .summary-grid,
   .updates-grid,
@@ -1211,6 +1258,15 @@ p {
 
   .hero-lede {
     font-size: 1.05rem;
+  }
+
+  .opportunity-banner {
+    padding: 1rem;
+  }
+
+  .opportunity-banner .button {
+    justify-content: center;
+    width: 100%;
   }
 
   .project-card,
