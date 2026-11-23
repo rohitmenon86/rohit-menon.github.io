@@ -1438,7 +1438,7 @@ p {
   display: flex;
   flex-direction: column;
   color: var(--home-ink);
-  font-size: 1.05rem;
+  font-size: 1.35rem;
   font-weight: 700;
   line-height: 1.2;
 }

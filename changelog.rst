@@ -23,6 +23,7 @@ Changelog
 * Removed the duplicate hero introduction while retaining the availability notice, profile card and direct links.
 * Moved the About bio beside the profile photo instead of keeping a separate section below the news.
 * Placed the profile photo card before the About text on mobile.
+* Enlarged the homepage name and updated its subtitle to ``Full Stack Roboticist | Researcher | Mentor``.
 * Removed the repeated position-seeking callout from the bottom of the homepage.
 * Ordered selected work as O-STaR, SG-DOR, EvidMTL, HortiBot, DawnIK, NBV-SC and the ICRA 2016 assistive-grasping paper.
 * Kept SG-AMP and Fruit Mapping with Shape Completion only in the publication lists, and added Placeability, GO-VMP, Graph-based View Motion Planning, Fruit Mapping and the thesis paper to Selected BibTeX.

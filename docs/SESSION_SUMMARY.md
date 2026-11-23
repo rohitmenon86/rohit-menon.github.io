@@ -44,6 +44,7 @@ Verification:
 - Removed the duplicate hero slogan and research-summary paragraphs so the About bio is the homepage's only introduction; retained the availability notice, profile card and direct links.
 - Moved the About bio into the open space to the left of the profile photo and removed its separate section below the news.
 - Reordered the single-column mobile hero so the profile photo card appears before the About text.
+- Enlarged the top-left name and changed its subtitle to `Full Stack Roboticist | Researcher | Mentor`.
 - Removed the duplicate position-seeking callout at the bottom of the homepage; retained the compact top notice and existing Email and CV actions.
 - Ordered the homepage selected work as O-STaR, SG-DOR, EvidMTL, HortiBot, DawnIK, NBV-SC and the ICRA 2016 assistive-grasping thesis paper; used the same leading order on the Research page.
 - Kept SG-AMP and Fruit Mapping with Shape Completion only in the BibTeX publication lists, removing their homepage news/project and Research-page project entries.
