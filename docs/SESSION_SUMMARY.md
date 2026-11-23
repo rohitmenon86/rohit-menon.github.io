@@ -37,6 +37,18 @@ Verification:
 - Rendered and visually inspected the replacement portrait in the circular homepage frame at desktop and mobile widths.
 - Rendered and visually inspected the top news area with the newest and oldest three-item windows at desktop width and the three stacked visible items at mobile width; automatic rotation and Older/Newer states behaved as intended.
 - Rendered and visually inspected the redesigned single-page homepage at desktop and mobile widths, including its hero, three-item news window, research themes, six project cards, open-resource band, experience cards and position callout; corrected inherited mobile alignment and dark-section heading colors.
+- Reduced the hero headline scale and removed the profile-card rotation following visual feedback.
+- Added the approved short bio covering the research focus, NEURA/DFKI background, co-building NEURA's AI team, public science communication, mentoring and personal interests.
+- Restored a desktop profile-link sidebar with distinct icons, changed the top navigation to the dedicated Research, Teaching, Outreach, Experience and CV pages, and reorganized selected work under `Perception and Reasoning under Uncertainty` and `Long-Horizon Mobile Manipulation`.
+- Removed decorative numbering, redundant labels, generic category explanations and CV-style supervision counts from the homepage; simplified the section titles and reduced their visual scale.
+- Removed the duplicate hero slogan and research-summary paragraphs so the About bio is the homepage's only introduction; retained the availability notice, profile card and direct links.
+- Moved the About bio into the open space to the left of the profile photo and removed its separate section below the news.
+- Reordered the single-column mobile hero so the profile photo card appears before the About text.
+- Removed the duplicate position-seeking callout at the bottom of the homepage; retained the compact top notice and existing Email and CV actions.
+- Ordered the homepage selected work as O-STaR, SG-DOR, EvidMTL, HortiBot, DawnIK, NBV-SC and the ICRA 2016 assistive-grasping thesis paper; used the same leading order on the Research page.
+- Kept SG-AMP and Fruit Mapping with Shape Completion only in the BibTeX publication lists, removing their homepage news/project and Research-page project entries.
+- Added the IROS 2026 placeability paper, GO-VMP, Graph-based View Motion Planning, Fruit Mapping and the ICRA 2016 thesis paper to the selected BibTeX list; OMAR was already present and retained.
+- Rendered and visually inspected the revised homepage at desktop width after the copy and heading-size cleanup.
 - Verified the edited HTML structure, BibTeX entry sets and internal links.
 - `git diff --check` completed without whitespace errors.
 

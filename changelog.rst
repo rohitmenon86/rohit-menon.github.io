@@ -17,6 +17,15 @@ Changelog
 * Synchronized the experience and teaching pages with current academic-CV details.
 * Replaced the homepage portrait with the photograph used in the academic CV.
 * Rebuilt the homepage as a modern single-page research profile while retaining detailed secondary pages.
+* Reduced the homepage headline scale and leveled the profile-photo frame.
+* Added a short bio and restored the icon sidebar, dedicated-page navigation and two-area research organization.
+* Simplified homepage headings and removed decorative numbering, redundant labels, category explanations and the thesis-count statistic.
+* Removed the duplicate hero introduction while retaining the availability notice, profile card and direct links.
+* Moved the About bio beside the profile photo instead of keeping a separate section below the news.
+* Placed the profile photo card before the About text on mobile.
+* Removed the repeated position-seeking callout from the bottom of the homepage.
+* Ordered selected work as O-STaR, SG-DOR, EvidMTL, HortiBot, DawnIK, NBV-SC and the ICRA 2016 assistive-grasping paper.
+* Kept SG-AMP and Fruit Mapping with Shape Completion only in the publication lists, and added Placeability, GO-VMP, Graph-based View Motion Planning, Fruit Mapping and the thesis paper to Selected BibTeX.
 
 2026-10-12
 ----------
