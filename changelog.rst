@@ -4,7 +4,8 @@ Changelog
 2026-11-24
 ----------
 
-* Fixed low-contrast homepage headings on devices that prefer dark mode.
+* Added a complete dark homepage palette so every page follows the device theme consistently.
+* Kept homepage headings, cards, navigation, news and buttons legible in both themes.
 * Updated the homepage stylesheet cache key so browsers load the correction.
 
 2026-11-23

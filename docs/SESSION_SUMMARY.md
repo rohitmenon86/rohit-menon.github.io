@@ -1,13 +1,14 @@
 # Session summary
 
-## 2026-11-24 01:36 CET — Mobile heading contrast
+## 2026-11-24 01:36 CET — Homepage device-theme support
 
-- Kept the homepage's light color palette independent of the device dark-mode preference.
+- Added a complete dark palette for the homepage so it follows the device theme like the secondary pages.
+- Kept text, cards, navigation, news and buttons legible in both palettes.
 - Updated the homepage stylesheet cache key so browsers request the corrected CSS.
 
 Verification:
 
-- Rendered the homepage at 390 px width with a forced dark-mode preference; headings remain dark and readable on white sections.
+- Rendered the homepage at 390 px width in both light and forced dark mode; headings and controls remain readable in each theme.
 - Rendered the Research page under the same conditions to confirm its existing dark theme remains readable.
 - `git diff --check` completed without whitespace errors.
 

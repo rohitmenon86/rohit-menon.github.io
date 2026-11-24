@@ -1,8 +1,9 @@
 # Recent changes
 
-## 2026-11-24 — Mobile heading contrast
+## 2026-11-24 — Homepage device-theme support
 
-- Prevented device dark-mode preferences from turning homepage headings light on the intentionally white homepage.
+- Added a complete dark homepage palette so the main and secondary pages consistently follow the device theme.
+- Kept headings, cards, navigation, news and buttons legible in both themes.
 - Changed the stylesheet cache key so mobile browsers fetch the corrected CSS.
 
 ## 2026-11-23 — Humanoids 2025 semantic mapping
