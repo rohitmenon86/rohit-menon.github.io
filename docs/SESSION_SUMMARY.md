@@ -1,5 +1,27 @@
 # Session summary
 
+## 2026-11-24 01:36 CET — Mobile heading contrast
+
+- Kept the homepage's light color palette independent of the device dark-mode preference.
+- Updated the homepage stylesheet cache key so browsers request the corrected CSS.
+
+Verification:
+
+- Rendered the homepage at 390 px width with a forced dark-mode preference; headings remain dark and readable on white sections.
+- Rendered the Research page under the same conditions to confirm its existing dark theme remains readable.
+- `git diff --check` completed without whitespace errors.
+
+## 2026-11-23 18:00 CET — Humanoids 2025 semantic mapping
+
+- Added the Humanoids 2025 paper ``Efficient Manipulation-Enhanced Semantic Mapping With Uncertainty-Informed Action Selection`` to the selected BibTeX download and homepage selected work.
+- Replaced its full-BibTeX paper URL with the official HRL publication page.
+- Used a text-only homepage card because no approved project image was available.
+
+Verification:
+
+- Confirmed the title, author list, venue, year and abstract summary against the official HRL publication page.
+- Confirmed the BibTeX records and homepage link use the official publication URL.
+
 ## 2026-11-23 17:14 CET — Research artifacts, academic CV and service updates
 
 - Added the public SG-DOR checkpoint and dataset repositories to its research card.
@@ -83,34 +105,10 @@ Verification:
 - Visually inspected the 1920 × 1080 O-STaR poster extracted at 02:04.
 - `git diff --check` completed without whitespace errors.
 
-## 2026-10-06 13:10 CEST — Selected-publication BibTeX
-
-- Added `selected_publications.bib` with only first-author and explicitly marked equal-first-author records.
-- Added separate Selected BibTeX and All BibTeX downloads to the CV page.
-
-Verification:
-
-- Confirmed all nine selected entries exactly match the authoritative academic-CV bibliography.
-- Confirmed every selected entry lists Rohit Menon first or within the declared equal-first-author group.
-- Rendered the CV page at desktop and mobile widths; all four download buttons remain readable and correctly arranged.
-- `git diff --check` completed without whitespace errors.
-
-## 2026-10-06 13:05 CEST — CV phone-number removal
-
-- Removed the phone number from the academic and industry CV headers.
-- Rebuilt both PDFs and replaced the website downloads.
-- Updated the legacy `cv.pdf` academic-CV alias for consistency.
-
-Verification:
-
-- Confirmed text extraction from both rebuilt PDFs contains no phone number.
-- The academic CV remains six A4 pages and the industry CV remains two A4 pages.
-- Rendered and visually inspected all eight pages; no layout regression was observed.
-- Confirmed the website PDFs match the rebuilt source PDFs by SHA-256.
-- `git diff --check` completed without whitespace errors.
-
 ## Archive
 
+- 2026-10-06 13:10 CEST — Added the selected-publication BibTeX download and separate CV-page download links.
+- 2026-10-06 13:05 CEST — Removed phone numbers from both CVs and rebuilt the website downloads.
 - 2026-10-06 10:58 CEST — Updated both CVs to list English C2 and German B2 and replaced the website downloads.
 - 2026-10-05 21:25 CEST — Increased the homepage profile photograph size on mobile screens.
 - 2026-10-05 17:20 CEST — Refreshed website content, navigation, research media, teaching, outreach, experience and CV downloads.

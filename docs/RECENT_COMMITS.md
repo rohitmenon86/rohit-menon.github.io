@@ -1,5 +1,15 @@
 # Recent changes
 
+## 2026-11-24 — Mobile heading contrast
+
+- Prevented device dark-mode preferences from turning homepage headings light on the intentionally white homepage.
+- Changed the stylesheet cache key so mobile browsers fetch the corrected CSS.
+
+## 2026-11-23 — Humanoids 2025 semantic mapping
+
+- Added ``Efficient Manipulation-Enhanced Semantic Mapping With Uncertainty-Informed Action Selection`` to the selected BibTeX download and the homepage selected-work grid.
+- Updated the full BibTeX record to use the official HRL publication page.
+
 ## 2026-11-23 — Research artifacts, academic CV and service updates
 
 - Added verified Hugging Face checkpoint and dataset links to the SG-DOR publication card.

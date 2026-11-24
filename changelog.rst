@@ -1,6 +1,18 @@
 Changelog
 =========
 
+2026-11-24
+----------
+
+* Fixed low-contrast homepage headings on devices that prefer dark mode.
+* Updated the homepage stylesheet cache key so browsers load the correction.
+
+2026-11-23
+----------
+
+* Added the Humanoids 2025 manipulation-enhanced semantic mapping paper to the selected BibTeX list and homepage selected work.
+* Updated its full BibTeX record to link to the official HRL publication page.
+
 2026-11-23
 ----------
 

@@ -1389,6 +1389,12 @@ p {
 
 /* Single-page academic homepage. Scoped to avoid changing the detailed pages. */
 .home-modern {
+  --bg-color: #ffffff;
+  --sidebar-bg: #f8fafc;
+  --text-color: #111827;
+  --text-muted: #526071;
+  --accent-color: #1d4ed8;
+  --border-color: #dce3ec;
   --home-ink: #111827;
   --home-muted: #526071;
   --home-blue: #1d4ed8;
@@ -1400,6 +1406,7 @@ p {
   min-width: 320px;
   color: var(--home-ink);
   background: #ffffff;
+  color-scheme: light;
   font-size: 16px;
 }
 
@@ -1865,6 +1872,10 @@ p {
 .home-project-card:hover {
   transform: translateY(-3px);
   box-shadow: 0 18px 40px rgba(31, 51, 81, 0.1);
+}
+
+.home-project-card-text {
+  grid-template-columns: 1fr;
 }
 
 .home-project-card > img {
